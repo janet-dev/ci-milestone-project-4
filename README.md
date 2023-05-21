@@ -6,6 +6,10 @@ This is the Code Institute template for Gitpod.
 
 ## Gitpod Reminders
 
+To run the Django app, type:
+
+`python3 manage.py runserver`
+
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
 `python3 -m http.server`

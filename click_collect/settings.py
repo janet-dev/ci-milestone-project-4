@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +26,10 @@ SECRET_KEY = 'hellodjango4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-janetdev-cimilestonepro-p7r25xvfo82.ws-eu97.gitpod.io']
+ALLOWED_HOSTS = [
+    '8000-janetdev-cimilestonepro-p7r25xvfo82.ws-eu97.gitpod.io',
+    'localhost',
+]
 
 
 # Application definition
@@ -41,6 +45,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'home',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +63,10 @@ ROOT_URLCONF = 'click_collect.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
