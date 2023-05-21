@@ -69,6 +69,19 @@ body {
     background: #000 !important;
 }
 
+.bg-red {
+    background: #ff0000 !important;
+}
+
+.text-red {
+    color: #ff0000 !important;
+}
+
+.text-luca {
+    font-style: italic;
+    text-transform: none;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
