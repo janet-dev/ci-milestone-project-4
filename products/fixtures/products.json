@@ -1,0 +1,212 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp01",
+            "name": "Dub Pizza",
+            "description": "Traditional vegetarian margherita with san marzano tomatoes, mozzarella and fresh basil",
+            "price": 8,
+            "category": 6,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-dub.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp02",
+            "name": "V Dub Pizza",
+            "description": "Vegan Margherita with san marzano tomatoes, vegan mozzarella and fresh basil",
+            "price": 8,
+            "category": 9,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-dub.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp03",
+            "name": "Testarossa Pizza",
+            "description": "With san marzano tomatoes, mozzarella, pepperoni, chilli flakes and chilli oil",
+            "price": 9,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-testarossa.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp04",
+            "name": "Modena Pizza",
+            "description": "With san marzano tomatoes, mozzarella, chicken, Chorizo, and red onion drizzled with a BBQ sauce",
+            "price": 10,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-modena.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp05",
+            "name": "Garlic Bread",
+            "description": "Vegetarian pizza With garlic butter, mozzarella and rosemary",
+            "price": 8,
+            "category": 6,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-garlic.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp06",
+            "name": "Dub Calzone",
+            "description": "Traditional vegetarian margherita with san marzano tomatoes, mozzarella and fresh basil",
+            "price": 8,
+            "category": 6,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-calzone.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp07",
+            "name": "V Dub Calzone",
+            "description": "Vegan Margherita with san marzano tomatoes, vegan mozzarella and fresh basil",
+            "price": 8,
+            "category": 9,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-calzone.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp08",
+            "name": "Testarossa Calzone",
+            "description": "With san marzano tomatoes, mozzarella, pepperoni, chilli flakes and chilli oil",
+            "price": 9,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-calzone.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp09",
+            "name": "Modena Calzone",
+            "description": "With san marzano tomatoes, mozzarella, chicken, Chorizo, and red onion drizzled with a BBQ sauce",
+            "price": 10,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-calzone.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp10",
+            "name": "Garlic Calzone",
+            "description": "Vegetarian with garlic butter, mozzarella and rosemary",
+            "price": 8,
+            "category": 6,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "pizza-calzone.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp11",
+            "name": "Diet Coke",
+            "description": "Carbonated soft drink with artifical sweeteners and caffeine",
+            "price": 0.80,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "drinks-cold.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp12",
+            "name": "Coca-Cola",
+            "description": "Carbonated soft drink with sugar and caffeine",
+            "price": 1,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "drinks-cold.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp13",
+            "name": "Sanpellegrino",
+            "description": "Italian sparkling drinks made with fruit",
+            "price": 1.20,
+            "category": 2,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "drinks-cold.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp14",
+            "name": "Tea",
+            "description": "Hot takeaway tea",
+            "price": 1,
+            "category": 7,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "drinks-hot.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp15",
+            "name": "Coffee",
+            "description": "Hot takeaway coffee",
+            "price": 1,
+            "category": 7,
+            "rating": 5.0,
+            "image_url": "",
+            "image": "drinks-hot.jpg"
+        }
+    }
+]
