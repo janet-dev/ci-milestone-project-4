@@ -9,7 +9,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         {% endblock %}
 
-        {% block extrameta %}
+        {% block extra_meta %}
         {% endblock %}
 
         {% block corecss %}
@@ -18,7 +18,7 @@
             <link rel="stylesheet" href="{% static 'css/base.css' %}">
             {% endblock %}
 
-        {% block extracss %}
+        {% block extra_css %}
         {% endblock %}
 
         {% block corejs %}
@@ -28,10 +28,10 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
         {% endblock %}
 
-        {% block extrajs %}
+        {% block extra_js %}
         {% endblock %}
 
-        <title>Click-Collect {% block extratitle %}{% endblock %}</title>
+        <title>Click-Collect {% block extra_title %}{% endblock %}</title>
     </head>
     <body>
         <header class="container-fluid fixed-top">
@@ -119,7 +119,7 @@
             <div class="message-container"></div>
         {% endif %}
 
-        {% block pageheader %}
+        {% block page_header %}
         {% endblock %}
 
         {% block content %}
