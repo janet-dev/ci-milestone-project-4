@@ -23,10 +23,10 @@
                 Pizza &amp; Calzone
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="pizza-link">
-                <a href="" class="dropdown-item">Meat</a>
-                <a href="" class="dropdown-item">Vegetarian</a>
-                <a href="" class="dropdown-item">Vegan</a>
-                <a href="" class="dropdown-item">All Pizza</a>
+                <a href="{% url 'products' %}?category=meat" class="dropdown-item">Meat</a>
+                <a href="{% url 'products' %}?category=vegetarian" class="dropdown-item">Vegetarian</a>
+                <a href="{% url 'products' %}?category=vegan" class="dropdown-item">Vegan</a>
+                <a href="{% url 'products' %}?category=meat,vegetarian,vegan" class="dropdown-item">All Pizza</a>
             </div>
         </li>
 
@@ -36,9 +36,9 @@
                 Drinks
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="drinks-link">
-                <a href="" class="dropdown-item">Cold Drinks</a>
-                <a href="" class="dropdown-item">Hot Drinks</a>
-                <a href="" class="dropdown-item">All Drinks</a>
+                <a href="{% url 'products' %}?category=cold_drinks" class="dropdown-item">Cold Drinks</a>
+                <a href="{% url 'products' %}?category=hot_drinks" class="dropdown-item">Hot Drinks</a>
+                <a href="{% url 'products' %}?category=cold_drinks,hot_drinks" class="dropdown-item">All Drinks</a>
             </div>
         </li>
 
@@ -47,10 +47,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
