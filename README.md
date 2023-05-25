@@ -6,9 +6,17 @@ This is the Code Institute template for Gitpod.
 
 ## Gitpod Reminders
 
-To run the Django app, type:
+To run the Django app in Gitpod, type:
 
 `python3 manage.py runserver`
+
+To update the requirements.txt
+
+`pip3 freeze --local > requirements.txt`
+
+To install the the requirements.txt
+
+`pip3 install -r requirements.txt`
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
