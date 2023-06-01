@@ -28,7 +28,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <p class="mb-0">{{ product.name }}</p>
-                <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                <p class="lead mb-0 text-left font-weight-bold">£{{ product.price }}</p>
                 {% if product.category %}
                     <p class="small mt-1 mb-0">
                         <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -48,9 +48,9 @@
                         {% with product.has_mods as m %}
                         {% if m %}
                             <div class="col-12">
-                                <p><strong>Variations:</strong></p>
+                                <p><strong>Variation:</strong></p>
                                 <select class="form-control rounded-0 w-50" name="product_mod" id='id_product_mod'>
-                                    <option value="none" selected>No variation</option>
+                                    <option value="mozzarella" selected>None</option>
                                     <option value="no mozzarella">No mozzarella</option>
                                 </select>
                             </div>

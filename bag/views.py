@@ -25,13 +25,13 @@ def add_to_bag(request, item_id):
         if item_id in list(bag.keys()):
             if mod in bag[item_id]['items_by_mod'].keys():
                 bag[item_id]['items_by_mod'][mod] += quantity
-                messages.success(request, f'Updated variation {mod.upper()} {product.name} quantity to {bag[item_id]["items_by_mod"][mod]}')
+                messages.success(request, f'Updated {product.name} with {mod.lower()} quantity to {bag[item_id]["items_by_mod"][mod]}')
             else:
                 bag[item_id]['items_by_mod'][mod] = quantity
-                messages.success(request, f'Added variation {mod.upper()} {product.name} to your bag')
+                messages.success(request, f'Added {product.name} with {mod.lower()} to your bag')
         else:
             bag[item_id] = {'items_by_mod': {mod: quantity}}
-            messages.success(request, f'Added variation {mod.upper()} {product.name} to your bag')
+            messages.success(request, f'Added {product.name} with {mod.lower()} to your bag')
     else:
         if item_id in list(bag.keys()):
             bag[item_id] += quantity
@@ -57,12 +57,12 @@ def adjust_bag(request, item_id):
     if mod:
         if quantity > 0:
             bag[item_id]['items_by_mod'][mod] = quantity
-            messages.success(request, f'Updated variation {mod.upper()} {product.name} quantity to {bag[item_id]["items_by_mod"][mod]}')
+            messages.success(request, f'Updated {product.name} with {mod.lower()} quantity to {bag[item_id]["items_by_mod"][mod]}')
         else:
             del bag[item_id]['items_by_mod'][mod]
             if not bag[item_id]['items_by_mod']:
                 bag.pop(item_id)
-            messages.success(request, f'Removed mod {mod.upper()} {product.name} from your bag')
+            messages.success(request, f'Removed {product.name} with {mod.lower()} from your bag')
     else:
         if quantity > 0:
             bag[item_id] = quantity
@@ -89,7 +89,7 @@ def remove_from_bag(request, item_id):
             del bag[item_id]['items_by_mod'][mod]
             if not bag[item_id]['items_by_mod']:
                 bag.pop(item_id)
-            messages.success(request, f'Removed variation {mod.upper()} {product.name} from your bag')
+            messages.success(request, f'Removed {product.name} with {mod.lower()} from your bag')
         else:
             bag.pop(item_id)
             messages.success(request, f'Removed {product.name} from your bag')
