@@ -27,8 +27,7 @@ SECRET_KEY = 'hellodjango4'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-janetdev-cimilestonepro-p7r25xvfo82.ws-eu97.gitpod.io',
-    '8000-janetdev-cimilestonepro-p7r25xvfo82.ws-eu98.gitpod.io',
+    '8000-janetdev-cimilestonepro-y1mawb4qtt0.ws-eu98.gitpod.io',
     'localhost',
 ]
 
