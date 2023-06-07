@@ -1,5 +1,12 @@
 from django.http import HttpResponse
 
+from .models import Order, OrderLineItem
+from products.models import Product
+
+import json
+import time
+import stripe
+
 
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
@@ -91,12 +98,12 @@ class StripeWH_Handler:
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size'].items():
+                        for mod, quantity in item_data['items_by_mod'].items():
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
                                 quantity=quantity,
-                                product_size=size,
+                                product_mod=mod,
                             )
                             order_line_item.save()
             except Exception as e:
