@@ -1,0 +1,1 @@
+ClickCollect Confirmation for 'Luca Loves Pizza' Order Number {{ order.order_number }}
