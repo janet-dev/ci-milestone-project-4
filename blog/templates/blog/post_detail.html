@@ -15,12 +15,20 @@
 <div class="overlay"></div>
 <div class="container-fluid"><br><br>
   <div class="row">
-    <div class="col-md-8 card mb-4  mt-3 left  top">
-      <div class="card-body">
-        <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
-        <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
-        <p class="card-text ">{{ object.content | safe }}</p>
-      </div>
+    <div class="col-md-12 mt-3">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
+                <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
+                <p class="card-text ">{{ object.content | safe }}</p>
+                <a href="{% url 'post_list' %}" class="btn btn-outline-black rounded-0 mt-5">
+                    <span class="icon">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <span>Go Back</span>
+                </a>
+            </div>
+        </div>
     </div>
   </div>
 </div>

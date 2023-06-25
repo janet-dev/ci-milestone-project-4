@@ -31,26 +31,19 @@
             <div class="row">
                 <!-- Blog heading -->
                 <hr>
-                <h2 class="logo-font mb-4">Blog</h2>
+                <h2 class="logo-font mb-4">Our Blog</h2>
                 <hr>
-                <div class=" col-md-8 col-md-10 mx-auto">
-                    <div class="site-heading">
-                        <h3 class=" site-heading my-4 mt-3"> Welcome to my awesome Blog </h3>
-                        <p>We Love Django As much as you do..! &nbsp
-                        </p>
-                    </div>
-                </div>
             </div>
             <div class="row">
                 <!-- Blog Entries Column -->
-                <div class="col-md-8 mt-3 left">
+                <div class="col-md-12 mt-3">
                     {% for post in post_list %}
                     <div class="card mb-4">
                         <div class="card-body">
                             <h2 class="card-title">{{ post.title }}</h2>
                             <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
                             <p class="card-text">{{post.content|slice:":200" }}</p>
-                            <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                            <a href="{% url 'post_detail' post.slug  %}" class="btn btn-danger">Read More &rarr;</a>
                         </div>
                     </div>
                     {% endfor %}
