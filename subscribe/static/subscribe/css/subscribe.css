@@ -1,8 +1,4 @@
-.subscribe-p-text {
-    color: #495057;
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 0.25rem;
-    padding: .375rem 0.75rem;
+.card {
+    box-shadow: 0 16px 48px #E3E7EB;
+    width: 30rem;
 }
-
