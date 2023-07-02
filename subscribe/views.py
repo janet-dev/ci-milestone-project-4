@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.core.validators import validate_email
 from django.core.exceptions import ValidationError
@@ -9,8 +9,12 @@ from .forms import SubscribeForm
 
 def subscribe(request):
     """
-    Renders a form to allow guests to subscribe to a newsletter 
-    and provides user feedback via toasts
+    Renders a form to allow guests to subscribe to a newsletter
+
+    Credit:
+    Django Tutorial - Introduction no Subscribers and Newsletter #18
+    by Rokas Liuberskis
+    https://www.youtube.com/watch?v=wl4Yxo5_Cgw
     """
 
     if request.method == "POST":

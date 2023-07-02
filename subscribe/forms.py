@@ -13,8 +13,8 @@ class SubscribeForm(forms.ModelForm):
         """ Adds placeholders and classes """
         super().__init__(*args, **kwargs)
         placeholders = {
-            'name': 'Full Name',
-            'email': 'Email Address',
+            'name': 'Name',
+            'email': 'Email',
         }
 
         self.fields['name'].widget.attrs['autofocus'] = True

@@ -1,3 +1,12 @@
+"""
+    Creates 2 views: a list of blogs and a selected blog detail page
+
+    Credit:
+    Djangocentral - Building A Blog Application With Django
+    by Abhijeet Pal
+    https://djangocentral.com/building-a-blog-application-with-django/
+"""
+
 from django.shortcuts import render
 
 from django.views import generic
