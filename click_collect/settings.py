@@ -28,7 +28,7 @@ SECRET_KEY = 'hellodjango4'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'clickcollect-app',
+    'clickcollect-app-be0648f4f2c3.herokuapp.com',
     '8000-janetdev-cimilestonepro-y1mawb4qtt0.ws-eu101.gitpod.io',
     'localhost',
 ]
