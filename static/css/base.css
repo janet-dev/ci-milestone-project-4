@@ -342,8 +342,3 @@ a.category-badge > span.badge:hover {
         padding: .25rem .5rem !important;
     }
 }
-
-@media (max-width: 520px) {
-    #delivery-banner { display: none; } 
-}
-
