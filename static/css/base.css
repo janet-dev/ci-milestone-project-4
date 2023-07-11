@@ -12,7 +12,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato';
+    font-family: 'Syne';
 }
 
 .title-padding {
@@ -344,14 +344,6 @@ a.category-badge > span.badge:hover {
 }
 
 @media (max-width: 520px) {
-    .header-container {
-        padding-top: 180px;
-    }
-
-    body {
-        height: calc(100vh - 170px);
-    }
-
     #delivery-banner { display: none; } 
 }
 
