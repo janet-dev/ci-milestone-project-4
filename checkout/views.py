@@ -69,15 +69,6 @@ def checkout(request):
                             quantity=item_data,
                         )
                         order_line_item.save()
-                    else:
-                        for mod, quantity in item_data['items_by_mod'].items():
-                            order_line_item = OrderLineItem(
-                                order=order,
-                                product=product,
-                                quantity=quantity,
-                                product_mod=mod,
-                            )
-                            order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the products in your bag \

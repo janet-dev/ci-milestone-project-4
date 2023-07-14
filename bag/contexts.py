@@ -12,7 +12,7 @@ def bag_contents(request):
     bag = request.session.get('bag', {})
 
     for item_id, item_data in bag.items():
-        if isinstance(item_data, int):  # no mods or variation
+        if isinstance(item_data, int):
             product = get_object_or_404(Product, pk=item_id)
             total += item_data * product.price
             product_count += item_data
@@ -21,17 +21,6 @@ def bag_contents(request):
                 'quantity': item_data,
                 'product': product,
             })
-        else:  # has mods or variation
-            product = get_object_or_404(Product, pk=item_id)
-            for mod, quantity in item_data['items_by_mod'].items():
-                total += quantity * product.price
-                product_count += quantity
-                bag_items.append({
-                    'item_id': item_id,
-                    'quantity': quantity,
-                    'product': product,
-                    'mod': mod,
-                })
 
     if total < settings.FREE_DELIVERY_THRESHOLD:
         # delivery=total*Decimal(settings.STANDARD_DELIVERY_PERCENTAGE/100)

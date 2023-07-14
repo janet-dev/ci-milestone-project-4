@@ -14,9 +14,9 @@
     <div class="overlay"></div>
     <div class="container mb-2">
         <div class="row">
-            <div class="col title-padding">
+            <div class="col text-center mt-3 title-padding">
                 <hr class="w-50 my-1">
-                <h2 class="logo-font mb-4">Shopping Bag</h2>
+                <h2 class="logo-font">Shopping Bag</h2>
                 <hr class="w-50 my-1">
             </div>
         </div>
@@ -137,9 +137,8 @@
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
-        var mod = $(this).data('product_mod');
         var url = `/bag/remove/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken, 'product_mod': mod};
+        var data = {'csrfmiddlewaretoken': csrfToken};
 
         $.post(url, data)
             .done(function() {

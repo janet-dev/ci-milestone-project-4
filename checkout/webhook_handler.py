@@ -135,15 +135,6 @@ class StripeWH_Handler:
                             quantity=item_data,
                         )
                         order_line_item.save()
-                    else:
-                        for mod, quantity in item_data['items_by_mod'].items():
-                            order_line_item = OrderLineItem(
-                                order=order,
-                                product=product,
-                                quantity=quantity,
-                                product_mod=mod,
-                            )
-                            order_line_item.save()
             except Exception as e:
                 if order:
                     order.delete()
