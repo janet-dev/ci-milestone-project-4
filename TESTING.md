@@ -279,3 +279,47 @@ The following logs detail the testing carried out:
 
     - Step 13
     <h2 align="left"><img src="docs/testing/testcases/product-detail-13.jpg"></h2>
+
+---
+
+#### Shopping Bag Page
+
+<h2 align="left"><img src="docs/testing/testcases/bag-03.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-05-bag-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-05-bag-2.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/bag-01.jpg"></h2>
+
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/bag-03.jpg"></h2>
+    
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/bag-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/bag-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/bag-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/bag-07.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/bag-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/bag-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/bag-10.jpg"></h2>
+
+    - Step 11
+    <h2 align="left"><img src="docs/testing/testcases/bag-11.jpg"></h2>
+
