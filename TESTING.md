@@ -524,3 +524,69 @@ The following logs detail the testing carried out:
     <h2 align="left"><img src="docs/testing/testcases/register-24.jpg"></h2>
 
 ---
+
+#### Sign In (Login) Page
+
+<h2 align="left"><img src="docs/testing/testcases/login-03.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-08-login-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-08-login-2.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-08-login-3.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/login-01.jpg"></h2>
+    
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/login-03.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/login-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/login-06.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/login-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/login-10.jpg"></h2>
+
+    - Step 11
+    <h2 align="left"><img src="docs/testing/testcases/login-11.jpg"></h2>
+
+    - Step 12
+    <h2 align="left"><img src="docs/testing/testcases/login-12.jpg"></h2>
+
+    - Step 13
+    <h2 align="left"><img src="docs/testing/testcases/login-13.jpg"></h2>
+
+    - Step 14
+    <h2 align="left"><img src="docs/testing/testcases/login-14.jpg"></h2>
+
+    - Step 16
+    <h2 align="left"><img src="docs/testing/testcases/login-16.jpg"></h2>
+
+    - Step 17
+    <h2 align="left"><img src="docs/testing/testcases/login-17.jpg"></h2>
+
+    - Step 18
+    <h2 align="left"><img src="docs/testing/testcases/login-18.jpg"></h2>
+
+    - Step 19
+    <h2 align="left"><img src="docs/testing/testcases/login-19.jpg"></h2>
+
+    - Step 20
+    <h2 align="left"><img src="docs/testing/testcases/login-20.jpg"></h2>
+
+    - Step 21
+    <h2 align="left"><img src="docs/testing/testcases/login-21.jpg"></h2>
+
+    - Step 22
+    <h2 align="left"><img src="docs/testing/testcases/login-22.jpg"></h2>
+
+    - Step 23
+    <h2 align="left"><img src="docs/testing/testcases/login-01.jpg"></h2>
