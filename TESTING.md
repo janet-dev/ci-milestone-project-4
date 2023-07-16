@@ -323,3 +323,117 @@ The following logs detail the testing carried out:
     - Step 11
     <h2 align="left"><img src="docs/testing/testcases/bag-11.jpg"></h2>
 
+---
+
+#### Checkout Page
+
+<h2 align="left"><img src="docs/testing/testcases/checkout-04.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-06-checkout-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-06-checkout-2.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-06-checkout-3.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-06-checkout-4.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/checkout-01.jpg"></h2>
+
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/checkout-03.jpg"></h2>
+    
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/checkout-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/checkout-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/checkout-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/checkout-07.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/checkout-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/checkout-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/checkout-10.jpg"></h2>
+
+    - Step 11
+    <h2 align="left"><img src="docs/testing/testcases/checkout-11.jpg"></h2>
+
+    - Step 12
+    <h2 align="left"><img src="docs/testing/testcases/checkout-12.jpg"></h2>
+
+    - Step 13a
+    <h2 align="left"><img src="docs/testing/testcases/checkout-13a.jpg"></h2>
+
+    - Step 13b
+    <h2 align="left"><img src="docs/testing/testcases/checkout-13b.jpg"></h2>
+
+    - Step 14
+    <h2 align="left"><img src="docs/testing/testcases/checkout-14.jpg"></h2>
+
+    - Step 15a
+    <h2 align="left"><img src="docs/testing/testcases/checkout-15a.jpg"></h2>
+
+    - Step 15b
+    <h2 align="left"><img src="docs/testing/testcases/checkout-15b.jpg"></h2>
+
+    - Step 15c
+    <h2 align="left"><img src="docs/testing/testcases/checkout-15c.jpg"></h2>
+
+    - Step 15d
+    <h2 align="left"><img src="docs/testing/testcases/checkout-15d.jpg"></h2>
+
+    - Step 15e
+    <h2 align="left"><img src="docs/testing/testcases/checkout-15e.jpg"></h2>
+
+    - Step 15f
+    <h2 align="left"><img src="docs/testing/testcases/checkout-15f.jpg"></h2>
+
+    - Step 16
+    <h2 align="left"><img src="docs/testing/testcases/checkout-16.jpg"></h2>
+
+    - Step 17
+    <h2 align="left"><img src="docs/testing/testcases/checkout-17.jpg"></h2>
+
+    - Step 18a
+    <h2 align="left"><img src="docs/testing/testcases/checkout-18a.jpg"></h2>
+
+    - Step 18b
+    <h2 align="left"><img src="docs/testing/testcases/checkout-18b.jpg"></h2>
+
+    - Step 19a
+    <h2 align="left"><img src="docs/testing/testcases/checkout-19a.jpg"></h2>
+
+    - Step 19b
+    <h2 align="left"><img src="docs/testing/testcases/checkout-19b.jpg"></h2>
+
+    - Step 20a
+    <h2 align="left"><img src="docs/testing/testcases/checkout-20a.jpg"></h2>
+
+    - Step 20b
+    <h2 align="left"><img src="docs/testing/testcases/checkout-20b.jpg"></h2>
+
+    - Step 21
+    <h2 align="left"><img src="docs/testing/testcases/checkout-21.jpg"></h2>
+
+    - Step 22
+    <h2 align="left"><img src="docs/testing/testcases/checkout-22.jpg"></h2>
+
+    - Step 23
+    <h2 align="left"><img src="docs/testing/testcases/checkout-23.jpg"></h2>
+    
+    - Step 24
+    <h2 align="left"><img src="docs/testing/testcases/checkout-24.jpg"></h2>
+
+    - Step 25
+    <h2 align="left"><img src="docs/testing/testcases/checkout-25.jpg"></h2>
+
