@@ -237,3 +237,45 @@ The following logs detail the testing carried out:
     - Step 21
     <h2 align="left"><img src="docs/testing/testcases/products-21.jpg"></h2>
 
+---
+
+#### Product Detail Page
+
+<h2 align="left"><img src="docs/testing/testcases/product-detail-04.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-04-product-detail-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-04-product-detail-2.jpg"></h2>
+
+- Screenshots
+
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-07.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-10.jpg"></h2>
+
+    - Step 11
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-11.jpg"></h2>
+
+    - Step 12
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-12.jpg"></h2>
+
+    - Step 13
+    <h2 align="left"><img src="docs/testing/testcases/product-detail-13.jpg"></h2>
