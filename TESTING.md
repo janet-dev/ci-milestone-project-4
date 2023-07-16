@@ -590,3 +590,122 @@ The following logs detail the testing carried out:
 
     - Step 23
     <h2 align="left"><img src="docs/testing/testcases/login-01.jpg"></h2>
+
+---
+
+#### Profile Page
+
+Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier in one week, the rest of the testing will be carried out on Localhost rather than on Heroku.
+
+<h2 align="left"><img src="docs/testing/testcases/profile-05.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-09-profile-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-09-profile-2.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-09-profile-3.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-09-profile-4.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/profile-01.jpg"></h2>
+    
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/profile-03.jpg"></h2>
+
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/profile-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/profile-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/profile-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/profile-07.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/profile-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/profile-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/profile-10.jpg"></h2>
+
+    - Step 11
+    <h2 align="left"><img src="docs/testing/testcases/profile-11.jpg"></h2>
+    
+    - Step 12
+    <h2 align="left"><img src="docs/testing/testcases/profile-12.jpg"></h2>
+    
+    - Step 13
+    <h2 align="left"><img src="docs/testing/testcases/profile-13.jpg"></h2>
+
+    - Step 14
+    <h2 align="left"><img src="docs/testing/testcases/profile-14.jpg"></h2>
+
+    - Step 15
+    <h2 align="left"><img src="docs/testing/testcases/profile-15.jpg"></h2>
+
+    - Step 16
+    <h2 align="left"><img src="docs/testing/testcases/profile-16.jpg"></h2>
+
+    - Step 17
+    <h2 align="left"><img src="docs/testing/testcases/profile-17.jpg"></h2>
+
+    - Step 18
+    <h2 align="left"><img src="docs/testing/testcases/profile-18.jpg"></h2>
+
+    - Step 19
+    <h2 align="left"><img src="docs/testing/testcases/profile-19.jpg"></h2>
+
+    - Step 20
+    <h2 align="left"><img src="docs/testing/testcases/profile-20.jpg"></h2>
+
+    - Step 21
+    <h2 align="left"><img src="docs/testing/testcases/profile-21.jpg"></h2>
+    
+    - Step 22
+    <h2 align="left"><img src="docs/testing/testcases/profile-22.jpg"></h2>
+    
+    - Step 23
+    <h2 align="left"><img src="docs/testing/testcases/profile-23.jpg"></h2>
+
+    - Step 24
+    <h2 align="left"><img src="docs/testing/testcases/profile-24.jpg"></h2>
+
+    - Step 25
+    <h2 align="left"><img src="docs/testing/testcases/profile-25.jpg"></h2>
+
+    - Step 26
+    <h2 align="left"><img src="docs/testing/testcases/profile-26.jpg"></h2>
+
+    - Step 27
+    <h2 align="left"><img src="docs/testing/testcases/profile-27.jpg"></h2>
+
+    - Step 28
+    <h2 align="left"><img src="docs/testing/testcases/profile-28.jpg"></h2>
+
+    - Step 29
+    <h2 align="left"><img src="docs/testing/testcases/profile-29.jpg"></h2>
+
+    - Step 30
+    <h2 align="left"><img src="docs/testing/testcases/profile-30.jpg"></h2>
+
+    - Step 31
+    <h2 align="left"><img src="docs/testing/testcases/profile-31.jpg"></h2>
+    
+    - Step 32
+    <h2 align="left"><img src="docs/testing/testcases/profile-32.jpg"></h2>
+    
+    - Step 33
+    <h2 align="left"><img src="docs/testing/testcases/profile-33.jpg"></h2>
+
+    - Step 34
+    <h2 align="left"><img src="docs/testing/testcases/profile-34.jpg"></h2>
+
+    - Step 35
+    <h2 align="left"><img src="docs/testing/testcases/profile-35.jpg"></h2>
