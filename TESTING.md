@@ -437,3 +437,90 @@ The following logs detail the testing carried out:
     - Step 25
     <h2 align="left"><img src="docs/testing/testcases/checkout-25.jpg"></h2>
 
+---
+
+#### Sign Up (Register) Page
+
+<h2 align="left"><img src="docs/testing/testcases/register-03.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-07-register-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-07-register-2.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-07-register-3.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/register-01.jpg"></h2>
+    
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/register-03.jpg"></h2>
+
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/register-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/register-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/register-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/register-07.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/register-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/register-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/register-10.jpg"></h2>
+
+    - Step 11
+    <h2 align="left"><img src="docs/testing/testcases/register-11.jpg"></h2>
+
+    - Step 12
+    <h2 align="left"><img src="docs/testing/testcases/register-12.jpg"></h2>
+
+    - Step 13
+    <h2 align="left"><img src="docs/testing/testcases/register-13.jpg"></h2>
+
+    - Step 14
+    <h2 align="left"><img src="docs/testing/testcases/register-14.jpg"></h2>
+
+    - Step 15
+    <h2 align="left"><img src="docs/testing/testcases/register-15.jpg"></h2>
+
+    - Step 16
+    <h2 align="left"><img src="docs/testing/testcases/register-16.jpg"></h2>
+
+    - Step 17
+    <h2 align="left"><img src="docs/testing/testcases/register-17.jpg"></h2>
+
+    - Step 18
+    <h2 align="left"><img src="docs/testing/testcases/register-18.jpg"></h2>
+
+    - Step 19a
+    <h2 align="left"><img src="docs/testing/testcases/register-19a.jpg"></h2>
+
+    - Step 19b
+    <h2 align="left"><img src="docs/testing/testcases/register-19b.jpg"></h2>
+
+    - Step 20
+    <h2 align="left"><img src="docs/testing/testcases/register-20.jpg"></h2>
+
+    - Step 21
+    <h2 align="left"><img src="docs/testing/testcases/register-21.jpg"></h2>
+
+    - Step 22
+    <h2 align="left"><img src="docs/testing/testcases/register-22.jpg"></h2>
+
+    - Step 23
+    <h2 align="left"><img src="docs/testing/testcases/register-23.jpg"></h2>
+
+    - Step 24
+    <h2 align="left"><img src="docs/testing/testcases/register-24.jpg"></h2>
+
+---
