@@ -170,3 +170,70 @@ The following logs detail the testing carried out:
     - Step 6
     <h2 align="left"><img src="docs/testing/testcases/home-06.jpg"></h2>
 
+---
+
+#### Products Page
+
+<h2 align="left"><img src="docs/testing/testcases/products-03.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-03-products-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-03-products-2.jpg"></h2>
+
+- Screenshots
+
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/products-03.jpg"></h2>
+
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/products-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/products-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/products-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/products-07.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/products-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/products-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/products-10.jpg"></h2>
+
+    - Step 11
+    <h2 align="left"><img src="docs/testing/testcases/products-11.jpg"></h2>
+
+    - Step 12
+    <h2 align="left"><img src="docs/testing/testcases/products-12.jpg"></h2>
+
+    - Step 13
+    <h2 align="left"><img src="docs/testing/testcases/products-13.jpg"></h2>
+
+    - Step 14
+    <h2 align="left"><img src="docs/testing/testcases/products-14.jpg"></h2>
+
+    - Step 15
+    <h2 align="left"><img src="docs/testing/testcases/products-15.jpg"></h2>
+
+    - Step 17
+    <h2 align="left"><img src="docs/testing/testcases/products-17.jpg"></h2>
+
+    - Step 18
+    <h2 align="left"><img src="docs/testing/testcases/products-18.jpg"></h2>
+
+    - Step 19
+    <h2 align="left"><img src="docs/testing/testcases/products-19.jpg"></h2>
+
+    - Step 20
+    <h2 align="left"><img src="docs/testing/testcases/products-20.jpg"></h2>
+
+    - Step 21
+    <h2 align="left"><img src="docs/testing/testcases/products-21.jpg"></h2>
+
