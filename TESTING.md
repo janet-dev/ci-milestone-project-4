@@ -149,3 +149,24 @@ The following logs detail the testing carried out:
 ---
 
 #### Home Page
+
+<h2 align="left"><img src="docs/testing/testcases/home-01.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-02-home.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/home-01.jpg"></h2>
+
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/home-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/home-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/home-06.jpg"></h2>
+
