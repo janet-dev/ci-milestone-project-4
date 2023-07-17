@@ -280,6 +280,22 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
+#div_id_has_mods {
+    display: none;
+}
+
+#id_category option[value="3"] {
+    display: none;
+}
+
+#id_category option[value="4"] {
+    display: none;
+}
+
+#id_category option[value="8"] {
+    display: none;
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
