@@ -76,13 +76,13 @@ The site is designed to be responsive and accessible on a range of devices, maki
         - [**404 Page**](#404-page)
     - [**Future Features**](#future-features)
 
-4. [**Technologies Used**](#technologies-used)
+3. [**Technologies Used**](#technologies-used)
     - [**Design Tools**](#design-tools)
     - [**Front-End**](#front-end)
     - [**Back-End**](#back-end)
     - [**Validation and Evaluation**](#validation-and-evaluation)
 
-5. [**Manual Testing**](TESTING.md)
+4. [**Manual Testing**](TESTING.md)
     - [**Supported Browsers and Screen Sizes**](TESTING.md/#supported-browsers-and-screen-sizes)
     - [**Testing Against User Stories**](TESTING.md/#testing-against-user-stories)
     - [**Test Cases**](TESTING.md/#test-cases)
@@ -91,6 +91,9 @@ The site is designed to be responsive and accessible on a range of devices, maki
     - [**Compatibility**](TESTING.md/#compatibility)
     - [**Bugs Found**](TESTING.md/#bugs-found)
     - [**Known Issues**](TESTING.md/#known-issues)
+
+5. [**Automated Testing**](TESTING.md/#automated-testing)
+    - [**Unit Testing Using ChatGPT**](TESTING.md/##unit-testing-using-chatgpt)
 
 6. [**Deployment**](DEPLOYMENT.md)
     - [**Local Deployment**](DEPLOYMENT.md/#local-deployment)
