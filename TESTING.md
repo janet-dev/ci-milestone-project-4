@@ -712,6 +712,63 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 
 ---
 
+#### Product Management: Product Add Page (ADMIN login)
+
+<h2 align="left"><img src="docs/testing/testcases/productadd-03.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-10-productadd-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-10-productadd-2.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/productadd-01.jpg"></h2>
+    
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/productadd-03.jpg"></h2>
+
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/productadd-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/productadd-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/productadd-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/productadd-07.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/productadd-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/productadd-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/productadd-10.jpg"></h2>
+
+    - Step 11
+    <h2 align="left"><img src="docs/testing/testcases/productadd-11.jpg"></h2>
+
+    - Step 12
+    <h2 align="left"><img src="docs/testing/testcases/productadd-12.jpg"></h2>
+    
+    - Step 13
+    <h2 align="left"><img src="docs/testing/testcases/productadd-13.jpg"></h2>
+
+    - Step 14
+    <h2 align="left"><img src="docs/testing/testcases/productadd-14.jpg"></h2>
+
+    - Step 15
+    <h2 align="left"><img src="docs/testing/testcases/productadd-15.jpg"></h2>
+
+
+
+---
+
 ---
 
 # Automated Testing 
