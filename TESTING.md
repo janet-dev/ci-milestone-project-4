@@ -823,8 +823,42 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
     - Step 16
     <h2 align="left"><img src="docs/testing/testcases/productedit-16.jpg"></h2>
 
-
 ---
+
+#### Sign Out Page (Logout)
+
+<h2 align="left"><img src="docs/testing/testcases/logout-03.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-12-logout-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-12-logout-2.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/logout-01.jpg"></h2>
+    
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/logout-03.jpg"></h2>
+
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/logout-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/logout-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/logout-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/logout-06.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/logout-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/logout-09.jpg"></h2>
 
 ---
 
