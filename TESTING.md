@@ -923,6 +923,47 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 
 ---
 
+#### Blog Pages
+
+<h2 align="left"><img src="docs/testing/testcases/blog-04.jpg"></h2>
+
+- Results
+
+    <h2 align="left"><img src="docs/testing/testcases/testcase-14-blog-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/testcase-14-blog-2.jpg"></h2>
+
+- Screenshots
+
+    - Step 1
+    <h2 align="left"><img src="docs/testing/testcases/blog-01.jpg"></h2>
+    
+    - Step 3
+    <h2 align="left"><img src="docs/testing/testcases/blog-03.jpg"></h2>
+
+    - Step 4
+    <h2 align="left"><img src="docs/testing/testcases/blog-04.jpg"></h2>
+
+    - Step 5
+    <h2 align="left"><img src="docs/testing/testcases/blog-05.jpg"></h2>
+
+    - Step 6
+    <h2 align="left"><img src="docs/testing/testcases/blog-06.jpg"></h2>
+
+    - Step 7
+    <h2 align="left"><img src="docs/testing/testcases/blog-06.jpg"></h2>
+
+    - Step 8
+    <h2 align="left"><img src="docs/testing/testcases/blog-08.jpg"></h2>
+
+    - Step 9
+    <h2 align="left"><img src="docs/testing/testcases/blog-09.jpg"></h2>
+
+    - Step 10
+    <h2 align="left"><img src="docs/testing/testcases/blog-10.jpg"></h2>
+
+
+---
+
 ---
 
 
