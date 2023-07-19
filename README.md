@@ -115,11 +115,10 @@ The site is designed to be responsive and accessible on a range of devices, maki
 "**_As a user, I would like to_** _____________________________"
 
 - :white_check_mark: *add, update or delete items from shopping bag*.
-- :white_check_mark: *easily understand how to use the site*.
 - :white_check_mark: *keep my information secure*.
 - :white_check_mark: *order and pay for products*.
 - :white_check_mark: *see my order history*.
-- :white_check_mark: *view the site without logging in*.
+- :white_check_mark: *use the site without logging in*.
 - :white_check_mark: *subscribe to a newsletter*.
 - :white_check_mark: *view the site owner's blog*.
 

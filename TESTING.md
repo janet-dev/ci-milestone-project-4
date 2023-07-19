@@ -33,13 +33,74 @@ Similarly, the latest versions of most desktop browsers are supported.
 
 <h2 align="left"><img src="docs/pictures/bootstrap-desktop.jpg"></h2>
 
+---
 
+## Testing Against User Stories
+
+"**_As a user, I would like to_** _____________________________"
+
+- *add, update or delete items from shopping bag*
+    - All users are able to view, add, edit or delete their own bag items:
+        - View
+        <h2 align="left"><img src="docs/testing/user/bag-view.jpg"></h2>
+        - Add
+        <h2 align="left"><img src="docs/testing/user/bag-add.jpg"></h2>
+        - Delete
+        <h2 align="left"><img src="docs/testing/user/bag-delete.jpg"></h2>
+        - Edit
+        <h2 align="left"><img src="docs/testing/user/bag-edit.jpg"></h2>
+
+- *keep my information secure*
+    - Users need to register with a unique username and password in order to create a profile page. This profile page is a history of their prior orders. 
+
+    <h2 align="left"><img src="docs/testing/user/register.jpg"></h2>
+
+    - Security is provided by the [**django-allauth**](https://django-allauth.readthedocs.io/en/latest/) app. The *allauth* app is stored in the root *templates* folder of the project.
+
+    <h2 align="left"><img src="docs/testing/user/defense.jpg"></h2>
+
+- *use the site without logging in*
+    - Users can buy items, without registering or logging in:
+
+    <h2 align="left"><img src="docs/testing/user/buy.jpg"></h2>
+
+- *order and pay for products*
+
+    <h2 align="left"><img src="docs/testing/user/pay.jpg"></h2>
+
+- *as a logged in user, see my order history*
+
+    <h2 align="left"><img src="docs/testing/user/history.jpg"></h2>
+
+---
 
 ## Test Cases
 
 These cases are included in order to help the next developer understand the design of the site and how to extend it. They document the look and functionality of each page. All pages and features will function and look the same whether on desktop, tablet or mobile, except for the 
 
-- lack of branding and *hamburger* menu for mobiles and some tablets
+- absence of the branding **Click**Collect and *hamburger* menu for mobiles and some tablets
+
+    <h2 align="left"><img src="docs/testing/testcases/nav-hamburger.jpg"></h2>
+
+    When the menu icon is selected, it reveals a sliding down panel listing the menu options. Select an option to navigate to the appropriate page.
+
+    <h2 align="left"><img src="docs/testing/testcases/nav-mobile.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/testcases/nav-tablet.jpg"></h2>
+
+
+- number of product cards displayed across the screen:
+    - desktops tend to show four cards across
+
+    <h2 align="left"><img src="docs/testing/testcases/products-desktop.jpg"></h2>
+
+    - tablets tend to show two cards across
+
+    <h2 align="left"><img src="docs/testing/testcases/products-tablet.jpg"></h2>
+    
+    - mobiles tend to show one card across
+
+    <h2 align="left"><img src="docs/testing/testcases/products-mobile.jpg"></h2>
+
 
 ### Test Case Logs
 
@@ -964,6 +1025,8 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 
 ---
 
+[Test Case Template](https://www.guru99.com/download-sample-test-case-template-with-explanation-of-important-fields.html) provided by Thomas Hamilton on GURU99
+
 ---
 
 
@@ -1002,3 +1065,321 @@ python manage.py test blog
 
 <h2 align="left"><img src="docs/testing/unittests/chatgpt-12.jpg"></h2>
 
+---
+
+## Code Validation
+
+* HTML - No errors or warnings were detected by [W3C](https://validator.w3.org/#validate_by_input) Validation for pages:
+
+    - [bag-total.html PDF report](docs/testing/validation/w3c-html-bagtotal.pdf)
+    - [bag.html PDF report](docs/testing/validation/w3c-html-bag.pdf)
+    - [checkout-buttons.html PDF report](docs/testing/validation/w3c-html-checkoutbuttons.pdf)
+    - [product-image.html PDF report](docs/testing/validation/w3c-html-productimage.pdf)
+    - [product-info.html PDF report](docs/testing/validation/w3c-html-productinfo.pdf)
+    - [quantity-form.html PDF report](docs/testing/validation/w3c-html-quantityform.pdf)
+
+    - [post_detail.html PDF report](docs/testing/validation/w3c-html-postdetail.pdf)
+    - [post_list.html PDF report](docs/testing/validation/w3c-html-postlist.pdf)
+
+    - [checkout_success.html PDF report](docs/testing/validation/w3c-html-checkoutsuccess.pdf)
+    - [checkout.html PDF report](docs/testing/validation/w3c-html-checkout.pdf)
+
+    - [index.html PDF report](docs/testing/validation/w3c-html-index.pdf)
+
+    - [add_product.html PDF report](docs/testing/validation/w3c-html-addproduct.pdf)
+    - [edit_product.html PDF report](docs/testing/validation/w3c-html-editproduct.pdf)
+    - [product_detail.html PDF report](docs/testing/validation/w3c-html-productdetail.pdf)
+    - [products.html PDF report](docs/testing/validation/w3c-html-products.pdf)
+    - [custom_clearable_file_input.html PDF report](docs/testing/validation/w3c-html-customclearable.pdf)
+    - [quantity_input_script.html PDF report](docs/testing/validation/w3c-html-quantityinput.pdf)
+    
+    - [profile.html PDF report](docs/testing/validation/w3c-html-profile.pdf)
+
+    - [subscribe.html PDF report](docs/testing/validation/w3c-html-subscribe.pdf)
+
+    - [already_logged_in.html PDF report](docs/testing/validation/w3c-html-alreadylogged.pdf)
+    - [allauth/base.html PDF report](docs/testing/validation/w3c-html-allauthbase.pdf)
+    - [email_confirm.html PDF report](docs/testing/validation/w3c-html-emailconfirm.pdf)
+    - [email.html PDF report](docs/testing/validation/w3c-html-email.pdf)
+    - [login.html PDF report](docs/testing/validation/w3c-html-login.pdf)
+    - [logout.html PDF report](docs/testing/validation/w3c-html-logout.pdf)
+    - [password_change.html PDF report](docs/testing/validation/w3c-html-passwordchange.pdf)
+    - [password_reset_done.html PDF report](docs/testing/validation/w3c-html-passwordresetdone.pdf)
+    - [password_reset.html PDF report](docs/testing/validation/w3c-html-passwordreset.pdf)
+    - [password_set.html PDF report](docs/testing/validation/w3c-html-passwordset.pdf)    
+    - [signup.html PDF report](docs/testing/validation/w3c-html-signup.pdf)
+    - [verification_sent.html PDF report](docs/testing/validation/w3c-html-verificationsent.pdf)
+
+    - [404.html PDF report](docs/testing/validation/w3c-html-404.pdf)
+    - [500.html PDF report](docs/testing/validation/w3c-html-500.pdf)
+    - [base.html PDF report](docs/testing/validation/w3c-html-base.pdf)
+
+    <h2 align="left"><img src="docs/testing/validation/w3c-html.jpg"></h2>
+
+* CSS - No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation for:
+    - [blog.css PDF report](docs/testing/validation/w3c-blog-css.pdf)
+    - [checkout.css PDF report](docs/testing/validation/w3c-checkout-css.pdf)
+    - [profile.css PDF report](docs/testing/validation/w3c-profile-css.pdf)
+    - [style.css PDF report](docs/testing/validation/w3c-style-css.pdf)
+    - [sunscribe.css PDF report](docs/testing/validation/w3c-subscribe-css.pdf)
+
+    <h2 align="left"><img src="docs/testing/validation/w3c-css.jpg"></h2>
+
+* JavaScript - No errors or warnings were detected by [JSHint](https://jshint.com/) for:
+
+    - [stripe_element.js PDF report](docs/testing/validation/w3c-stripeelement-js.pdf)
+    - [countryfield.js PDF report](docs/testing/validation/w3c-countryfield-js.pdf)
+
+    <h2 align="left"><img src="docs/testing/validation/jshint.jpg"></h2>
+
+* Python - No errors or warnings were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for: 
+    - manage.py
+
+    <h2 align="left"><img src="docs/testing/validation/py-manage.jpg"></h2>
+
+    - bag/
+        - apps.py
+        <h2 align="left"><img src="docs/testing/validation/py-bag-apps.jpg"></h2>
+
+        - contexts.py
+        <h2 align="left"><img src="docs/testing/validation/py-bag-contexts.jpg"></h2>
+
+        - urls.py
+        <h2 align="left"><img src="docs/testing/validation/py-bag-urls.jpg"></h2>
+
+        - views.py
+        <h2 align="left"><img src="docs/testing/validation/py-bag-views.jpg"></h2>
+
+    - blog/
+        - admin.py
+        <h2 align="left"><img src="docs/testing/validation/py-blog-admin.jpg"></h2>
+
+        - apps.py
+        <h2 align="left"><img src="docs/testing/validation/py-blog-apps.jpg"></h2>
+
+        - models.py
+        <h2 align="left"><img src="docs/testing/validation/py-blog-models.jpg"></h2>
+
+        - tests.py
+        <h2 align="left"><img src="docs/testing/validation/py-blog-tests.jpg"></h2>
+
+        - urls.py
+        <h2 align="left"><img src="docs/testing/validation/py-blog-urls.jpg"></h2>
+
+        - views.py
+        <h2 align="left"><img src="docs/testing/validation/py-blog-views.jpg"></h2>
+
+    - checkout/
+        - admin.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-admin.jpg"></h2>
+
+        - apps.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-apps.jpg"></h2>
+
+        - forms.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-forms.jpg"></h2>
+
+        - models.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-models.jpg"></h2>
+
+        - signals.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-signals.jpg"></h2>
+
+        - urls.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-urls.jpg"></h2>
+
+        - views.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-views.jpg"></h2>
+
+        - webhook_handler.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-webhookhandler.jpg"></h2>
+
+        - webhooks.py
+        <h2 align="left"><img src="docs/testing/validation/py-checkout-webhooks.jpg"></h2>
+
+    - click_collect/
+        - asgi.py
+        <h2 align="left"><img src="docs/testing/validation/py-clickcollect-asgi.jpg"></h2>
+
+        - settings.py
+        <h2 align="left"><img src="docs/testing/validation/py-clickcollect-settings.jpg"></h2>
+
+        - urls.py
+        <h2 align="left"><img src="docs/testing/validation/py-clickcollect-urls.jpg"></h2>
+
+        - wsgi.py
+        <h2 align="left"><img src="docs/testing/validation/py-clickcollect-wsgi.jpg"></h2>
+
+    - home/
+        - apps.py
+        <h2 align="left"><img src="docs/testing/validation/py-home-apps.jpg"></h2>
+
+        - models.py
+        <h2 align="left"><img src="docs/testing/validation/py-home-models.jpg"></h2>
+
+        - urls.py
+        <h2 align="left"><img src="docs/testing/validation/py-home-urls.jpg"></h2>
+
+        - views.py
+        <h2 align="left"><img src="docs/testing/validation/py-home-views.jpg"></h2>
+
+    - products/
+        - admin.py
+        <h2 align="left"><img src="docs/testing/validation/py-products-admin.jpg"></h2>
+
+        - apps.py
+        <h2 align="left"><img src="docs/testing/validation/py-products-apps.jpg"></h2>
+
+        - forms.py
+        <h2 align="left"><img src="docs/testing/validation/py-products-forms.jpg"></h2>
+
+        - models.py
+        <h2 align="left"><img src="docs/testing/validation/py-products-models.jpg"></h2>
+
+        - urls.py
+        <h2 align="left"><img src="docs/testing/validation/py-products-urls.jpg"></h2>
+
+        - views.py
+        <h2 align="left"><img src="docs/testing/validation/py-products-views.jpg"></h2>
+
+        - widgets.py
+        <h2 align="left"><img src="docs/testing/validation/py-products-widgets.jpg"></h2>
+
+    - profiles/
+        - apps.py
+        <h2 align="left"><img src="docs/testing/validation/py-profiles-apps.jpg"></h2>
+
+        - forms.py
+        <h2 align="left"><img src="docs/testing/validation/py-profiles-forms.jpg"></h2>
+
+        - models.py
+        <h2 align="left"><img src="docs/testing/validation/py-profiles-models.jpg"></h2>
+        
+        - urls.py
+        <h2 align="left"><img src="docs/testing/validation/py-profiles-urls.jpg"></h2>
+
+        - views.py
+        <h2 align="left"><img src="docs/testing/validation/py-profiles-views.jpg"></h2>
+
+    - subscribe/
+        - admin.py
+        <h2 align="left"><img src="docs/testing/validation/py-subscribe-admin.jpg"></h2>
+
+        - apps.py
+        <h2 align="left"><img src="docs/testing/validation/py-subscribe-apps.jpg"></h2>
+
+        - forms.py
+        <h2 align="left"><img src="docs/testing/validation/py-subscribe-forms.jpg"></h2>
+
+        - models.py
+        <h2 align="left"><img src="docs/testing/validation/py-subscribe-models.jpg"></h2>
+
+        - urls.py
+        <h2 align="left"><img src="docs/testing/validation/py-subscribe-urls.jpg"></h2>
+
+        - views.py
+        <h2 align="left"><img src="docs/testing/validation/py-subscribe-views.jpg"></h2>
+
+---
+
+## Site Audit
+
+### Desktop audits
+
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) minimum scores:
+
+    <h2 align="left"><img src="docs/testing/audit/lighthouse-min-desk.jpg"></h2>
+
+    Full PDF reports:
+    - [bag-total.html PDF report](docs/testing/validation/lighthouse-desk-bagtotal.pdf)
+    - [bag.html PDF report](docs/testing/validation/lighthouse-desk-bag.pdf)
+    - [checkout-buttons.html PDF report](docs/testing/validation/lighthouse-desk-checkoutbuttons.pdf)
+    - [product-image.html PDF report](docs/testing/validation/lighthouse-desk-productimage.pdf)
+    - [product-info.html PDF report](docs/testing/validation/lighthouse-desk-productinfo.pdf)
+    - [quantity-form.html PDF report](docs/testing/validation/lighthouse-desk-quantityform.pdf)
+
+    - [post_detail.html PDF report](docs/testing/validation/lighthouse-desk-postdetail.pdf)
+    - [post_list.html PDF report](docs/testing/validation/lighthouse-desk-postlist.pdf)
+
+    - [checkout_success.html PDF report](docs/testing/validation/lighthouse-desk-checkoutsuccess.pdf)
+    - [checkout.html PDF report](docs/testing/validation/lighthouse-desk-checkout.pdf)
+
+    - [index.html PDF report](docs/testing/validation/lighthouse-desk-index.pdf)
+
+    - [add_product.html PDF report](docs/testing/validation/lighthouse-desk-addproduct.pdf)
+    - [edit_product.html PDF report](docs/testing/validation/lighthouse-desk-editproduct.pdf)
+    - [product_detail.html PDF report](docs/testing/validation/lighthouse-desk-productdetail.pdf)
+    - [products.html PDF report](docs/testing/validation/lighthouse-desk-products.pdf)
+    - [custom_clearable_file_input.html PDF report](docs/testing/validation/lighthouse-desk-customclearable.pdf)
+    - [quantity_input_script.html PDF report](docs/testing/validation/lighthouse-desk-quantityinput.pdf)
+    
+    - [profile.html PDF report](docs/testing/validation/lighthouse-desk-profile.pdf)
+
+    - [subscribe.html PDF report](docs/testing/validation/lighthouse-desk-subscribe.pdf)
+
+    - [already_logged_in.html PDF report](docs/testing/validation/lighthouse-desk-alreadylogged.pdf)
+    - [allauth/base.html PDF report](docs/testing/validation/lighthouse-desk-allauthbase.pdf)
+    - [email_confirm.html PDF report](docs/testing/validation/lighthouse-desk-emailconfirm.pdf)
+    - [email.html PDF report](docs/testing/validation/lighthouse-desk-email.pdf)
+    - [login.html PDF report](docs/testing/validation/lighthouse-desk-login.pdf)
+    - [logout.html PDF report](docs/testing/validation/lighthouse-desk-logout.pdf)
+    - [password_change.html PDF report](docs/testing/validation/lighthouse-desk-passwordchange.pdf)
+    - [password_reset_done.html PDF report](docs/testing/validation/lighthouse-desk-passwordresetdone.pdf)
+    - [password_reset.html PDF report](docs/testing/validation/lighthouse-desk-passwordreset.pdf)
+    - [password_set.html PDF report](docs/testing/validation/lighthouse-desk-passwordset.pdf)    
+    - [signup.html PDF report](docs/testing/validation/lighthouse-desk-signup.pdf)
+    - [verification_sent.html PDF report](docs/testing/validation/lighthouse-desk-verificationsent.pdf)
+
+    - [404.html PDF report](docs/testing/validation/lighthouse-desk-404.pdf)
+    - [500.html PDF report](docs/testing/validation/lighthouse-desk-500.pdf)
+    - [base.html PDF report](docs/testing/validation/lighthouse-desk-base.pdf)
+
+### Mobile audits
+
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) minimum scores:
+
+    <h2 align="left"><img src="docs/testing/audit/lighthouse-min-mob.jpg"></h2>
+
+    Full PDF reports:
+    - [bag-total.html PDF report](docs/testing/validation/lighthouse-mob-bagtotal.pdf)
+    - [bag.html PDF report](docs/testing/validation/lighthouse-mob-bag.pdf)
+    - [checkout-buttons.html PDF report](docs/testing/validation/lighthouse-mob-checkoutbuttons.pdf)
+    - [product-image.html PDF report](docs/testing/validation/lighthouse-mob-productimage.pdf)
+    - [product-info.html PDF report](docs/testing/validation/lighthouse-mob-productinfo.pdf)
+    - [quantity-form.html PDF report](docs/testing/validation/lighthouse-mob-quantityform.pdf)
+
+    - [post_detail.html PDF report](docs/testing/validation/lighthouse-mob-postdetail.pdf)
+    - [post_list.html PDF report](docs/testing/validation/lighthouse-mob-postlist.pdf)
+
+    - [checkout_success.html PDF report](docs/testing/validation/lighthouse-mob-checkoutsuccess.pdf)
+    - [checkout.html PDF report](docs/testing/validation/lighthouse-mob-checkout.pdf)
+
+    - [index.html PDF report](docs/testing/validation/lighthouse-mob-index.pdf)
+
+    - [add_product.html PDF report](docs/testing/validation/lighthouse-mob-addproduct.pdf)
+    - [edit_product.html PDF report](docs/testing/validation/lighthouse-mob-editproduct.pdf)
+    - [product_detail.html PDF report](docs/testing/validation/lighthouse-mob-productdetail.pdf)
+    - [products.html PDF report](docs/testing/validation/lighthouse-mob-products.pdf)
+    - [custom_clearable_file_input.html PDF report](docs/testing/validation/lighthouse-mob-customclearable.pdf)
+    - [quantity_input_script.html PDF report](docs/testing/validation/lighthouse-mob-quantityinput.pdf)
+    
+    - [profile.html PDF report](docs/testing/validation/lighthouse-mob-profile.pdf)
+
+    - [subscribe.html PDF report](docs/testing/validation/lighthouse-mob-subscribe.pdf)
+
+    - [already_logged_in.html PDF report](docs/testing/validation/lighthouse-mob-alreadylogged.pdf)
+    - [allauth/base.html PDF report](docs/testing/validation/lighthouse-mob-allauthbase.pdf)
+    - [email_confirm.html PDF report](docs/testing/validation/lighthouse-mob-emailconfirm.pdf)
+    - [email.html PDF report](docs/testing/validation/lighthouse-mob-email.pdf)
+    - [login.html PDF report](docs/testing/validation/lighthouse-mob-login.pdf)
+    - [logout.html PDF report](docs/testing/validation/lighthouse-mob-logout.pdf)
+    - [password_change.html PDF report](docs/testing/validation/lighthouse-mob-passwordchange.pdf)
+    - [password_reset_done.html PDF report](docs/testing/validation/lighthouse-mob-passwordresetdone.pdf)
+    - [password_reset.html PDF report](docs/testing/validation/lighthouse-mob-passwordreset.pdf)
+    - [password_set.html PDF report](docs/testing/validation/lighthouse-mob-passwordset.pdf)    
+    - [signup.html PDF report](docs/testing/validation/lighthouse-mob-signup.pdf)
+    - [verification_sent.html PDF report](docs/testing/validation/lighthouse-mob-verificationsent.pdf)
+
+    - [404.html PDF report](docs/testing/validation/lighthouse-mob-404.pdf)
+    - [500.html PDF report](docs/testing/validation/lighthouse-mob-500.pdf)
+    - [base.html PDF report](docs/testing/validation/lighthouse-mob-base.pdf)
