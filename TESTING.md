@@ -1071,12 +1071,7 @@ python manage.py test blog
 
 * HTML - No errors or warnings were detected by [W3C](https://validator.w3.org/#validate_by_input) Validation for pages:
 
-    - [bag-total.html PDF report](docs/testing/validation/w3c-html-bagtotal.pdf)
     - [bag.html PDF report](docs/testing/validation/w3c-html-bag.pdf)
-    - [checkout-buttons.html PDF report](docs/testing/validation/w3c-html-checkoutbuttons.pdf)
-    - [product-image.html PDF report](docs/testing/validation/w3c-html-productimage.pdf)
-    - [product-info.html PDF report](docs/testing/validation/w3c-html-productinfo.pdf)
-    - [quantity-form.html PDF report](docs/testing/validation/w3c-html-quantityform.pdf)
 
     - [post_detail.html PDF report](docs/testing/validation/w3c-html-postdetail.pdf)
     - [post_list.html PDF report](docs/testing/validation/w3c-html-postlist.pdf)
@@ -1090,8 +1085,6 @@ python manage.py test blog
     - [edit_product.html PDF report](docs/testing/validation/w3c-html-editproduct.pdf)
     - [product_detail.html PDF report](docs/testing/validation/w3c-html-productdetail.pdf)
     - [products.html PDF report](docs/testing/validation/w3c-html-products.pdf)
-    - [custom_clearable_file_input.html PDF report](docs/testing/validation/w3c-html-customclearable.pdf)
-    - [quantity_input_script.html PDF report](docs/testing/validation/w3c-html-quantityinput.pdf)
     
     - [profile.html PDF report](docs/testing/validation/w3c-html-profile.pdf)
 
@@ -1291,12 +1284,7 @@ python manage.py test blog
     <h2 align="left"><img src="docs/testing/audit/lighthouse-min-desk.jpg"></h2>
 
     Full PDF reports:
-    - [bag-total.html PDF report](docs/testing/validation/lighthouse-desk-bagtotal.pdf)
     - [bag.html PDF report](docs/testing/validation/lighthouse-desk-bag.pdf)
-    - [checkout-buttons.html PDF report](docs/testing/validation/lighthouse-desk-checkoutbuttons.pdf)
-    - [product-image.html PDF report](docs/testing/validation/lighthouse-desk-productimage.pdf)
-    - [product-info.html PDF report](docs/testing/validation/lighthouse-desk-productinfo.pdf)
-    - [quantity-form.html PDF report](docs/testing/validation/lighthouse-desk-quantityform.pdf)
 
     - [post_detail.html PDF report](docs/testing/validation/lighthouse-desk-postdetail.pdf)
     - [post_list.html PDF report](docs/testing/validation/lighthouse-desk-postlist.pdf)
@@ -1310,8 +1298,6 @@ python manage.py test blog
     - [edit_product.html PDF report](docs/testing/validation/lighthouse-desk-editproduct.pdf)
     - [product_detail.html PDF report](docs/testing/validation/lighthouse-desk-productdetail.pdf)
     - [products.html PDF report](docs/testing/validation/lighthouse-desk-products.pdf)
-    - [custom_clearable_file_input.html PDF report](docs/testing/validation/lighthouse-desk-customclearable.pdf)
-    - [quantity_input_script.html PDF report](docs/testing/validation/lighthouse-desk-quantityinput.pdf)
     
     - [profile.html PDF report](docs/testing/validation/lighthouse-desk-profile.pdf)
 
@@ -1341,12 +1327,7 @@ python manage.py test blog
     <h2 align="left"><img src="docs/testing/audit/lighthouse-min-mob.jpg"></h2>
 
     Full PDF reports:
-    - [bag-total.html PDF report](docs/testing/validation/lighthouse-mob-bagtotal.pdf)
     - [bag.html PDF report](docs/testing/validation/lighthouse-mob-bag.pdf)
-    - [checkout-buttons.html PDF report](docs/testing/validation/lighthouse-mob-checkoutbuttons.pdf)
-    - [product-image.html PDF report](docs/testing/validation/lighthouse-mob-productimage.pdf)
-    - [product-info.html PDF report](docs/testing/validation/lighthouse-mob-productinfo.pdf)
-    - [quantity-form.html PDF report](docs/testing/validation/lighthouse-mob-quantityform.pdf)
 
     - [post_detail.html PDF report](docs/testing/validation/lighthouse-mob-postdetail.pdf)
     - [post_list.html PDF report](docs/testing/validation/lighthouse-mob-postlist.pdf)
@@ -1360,8 +1341,6 @@ python manage.py test blog
     - [edit_product.html PDF report](docs/testing/validation/lighthouse-mob-editproduct.pdf)
     - [product_detail.html PDF report](docs/testing/validation/lighthouse-mob-productdetail.pdf)
     - [products.html PDF report](docs/testing/validation/lighthouse-mob-products.pdf)
-    - [custom_clearable_file_input.html PDF report](docs/testing/validation/lighthouse-mob-customclearable.pdf)
-    - [quantity_input_script.html PDF report](docs/testing/validation/lighthouse-mob-quantityinput.pdf)
     
     - [profile.html PDF report](docs/testing/validation/lighthouse-mob-profile.pdf)
 
