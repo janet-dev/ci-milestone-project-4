@@ -1,9 +1,6 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
 from django.contrib import messages
-from django.core.validators import validate_email
-from django.core.exceptions import ValidationError
 
-from .models import SubscribedUsers
 from .forms import SubscribeForm
 
 
@@ -25,7 +22,10 @@ def subscribe(request):
             messages.success(request, "Successfully subscribed to newsletter.")
             return redirect('products')
         else:
-            messages.error(request, "Form invalid, please try again.")
+            messages.error(
+                request,
+                "Form invalid, please try again. Have you already subscribed?"
+            )
             return redirect('subscribe')
     else:
         subscribe_form = SubscribeForm()

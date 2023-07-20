@@ -29,7 +29,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
     'clickcollect-app-be0648f4f2c3.herokuapp.com',
-    '8000-janetdev-cimilestonepro-y1mawb4qtt0.ws-eu101.gitpod.io',
+    '8000-janetdev-cimilestonepro-y1mawb4qtt0.ws-eu102.gitpod.io',
     'localhost',
 ]
 
@@ -146,16 +146,20 @@ else:
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation\
+            .UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation\
+            .MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation\
+            .CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation\
+            .NumericPasswordValidator',
     },
 ]
 

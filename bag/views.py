@@ -18,7 +18,6 @@ def add_to_bag(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
-    mod = None
     bag = request.session.get('bag', {})
 
     if item_id in list(bag.keys()):
@@ -38,7 +37,6 @@ def adjust_bag(request, item_id):
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
-    mod = None
     bag = request.session.get('bag', {})
 
     if quantity > 0:
@@ -58,7 +56,6 @@ def remove_from_bag(request, item_id):
 
     try:
         product = get_object_or_404(Product, pk=item_id)
-        mod = None
         bag = request.session.get('bag', {})
 
         bag.pop(item_id)

@@ -6,9 +6,6 @@
     by Abhijeet Pal
     https://djangocentral.com/building-a-blog-application-with-django/
 """
-
-from django.shortcuts import render
-
 from django.views import generic
 from .models import Post
 

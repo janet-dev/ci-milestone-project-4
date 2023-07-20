@@ -70,8 +70,3 @@ class PostModelTest(TestCase):
     def test_string_representation(self):
         post = Post.objects.get(id=1)
         self.assertEqual(str(post), 'Test Post')
-
-
-# Optionally, you can include the following code to run the tests
-if __name__ == '__main__':
-    unittest.main()
