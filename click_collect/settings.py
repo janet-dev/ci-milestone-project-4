@@ -29,6 +29,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
     'clickcollect-app-be0648f4f2c3.herokuapp.com',
+    '8000-janetdev-cimilestonepro-y1mawb4qtt0.ws-eu101.gitpod.io',
     '8000-janetdev-cimilestonepro-y1mawb4qtt0.ws-eu102.gitpod.io',
     'localhost',
 ]

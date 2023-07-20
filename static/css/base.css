@@ -92,6 +92,14 @@ body {
     text-transform: none;
 }
 
+.text-links {
+    color: #00008b;
+}
+
+.text-bag {
+    color: #7700ff;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;

@@ -6,6 +6,9 @@
         {% block meta %}
             <meta http-equiv="X-UA-Compatible" content= "ie=edge">
             <meta charset="utf-8">
+            <meta name="description" content="E-Commerce site for takeaway food retailers">
+            <meta name="keywords" content="pizza, calzone, vegan, vegetarian, pepperoni, chilli, garlic, handmade, flame-baked">
+            <meta name="author" content="Janet Dornan">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         {% endblock %}
 
@@ -66,7 +69,8 @@
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                     <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                         <li class="list-inline-item dropdown">
-                            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" 
+                                aria-haspopup="true" aria-expanded="false" aria-label="my account icon">
                                 <div class="text-center">
                                     <div><i class="fas fa-user fa-lg"></i></div>
                                     <p class="my-0">My Account</p>
@@ -86,7 +90,7 @@
                             </div>
                         </li>
                         <li class="list-inline-item">
-                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                            <a class="{% if grand_total %}text-bag font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
@@ -116,7 +120,8 @@
                 <div class="col bg-danger text-white">
                     <h4 class="logo-font my-1">
                         Follow us 
-                        <a href="https://www.facebook.com/people/Luca-Loves-Pizza/100075726265051/" target="_blank">
+                        <a href="https://www.facebook.com/people/Luca-Loves-Pizza/100075726265051/" 
+                            target="_blank" aria-label="Facebook page for Lucas Loves Pizza">
                             <i class="fa-brands fa-facebook text-warning"></i>
                         </a>
                     </h4>                
