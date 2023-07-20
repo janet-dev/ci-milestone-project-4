@@ -97,7 +97,7 @@ body {
 }
 
 .text-bag {
-    color: #7700ff;
+    color: #DC3545;
 }
 
 .overlay {
@@ -257,7 +257,7 @@ a.category-badge > span.badge:hover {
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #00008b; /* text-info */
 }
 
 /* Product Form */

@@ -1090,16 +1090,11 @@ python manage.py test blog
 
     - [subscribe.html PDF report](docs/testing/validation/w3c-html-subscribe.pdf)
 
-    - [already_logged_in.html PDF report](docs/testing/validation/w3c-html-alreadylogged.pdf)
-    - [allauth/base.html PDF report](docs/testing/validation/w3c-html-allauthbase.pdf)
     - [email_confirm.html PDF report](docs/testing/validation/w3c-html-emailconfirm.pdf)
-    - [email.html PDF report](docs/testing/validation/w3c-html-email.pdf)
     - [login.html PDF report](docs/testing/validation/w3c-html-login.pdf)
     - [logout.html PDF report](docs/testing/validation/w3c-html-logout.pdf)
-    - [password_change.html PDF report](docs/testing/validation/w3c-html-passwordchange.pdf)
     - [password_reset_done.html PDF report](docs/testing/validation/w3c-html-passwordresetdone.pdf)
     - [password_reset.html PDF report](docs/testing/validation/w3c-html-passwordreset.pdf)
-    - [password_set.html PDF report](docs/testing/validation/w3c-html-passwordset.pdf)    
     - [signup.html PDF report](docs/testing/validation/w3c-html-signup.pdf)
     - [verification_sent.html PDF report](docs/testing/validation/w3c-html-verificationsent.pdf)
 
@@ -1110,22 +1105,26 @@ python manage.py test blog
     <h2 align="left"><img src="docs/testing/validation/w3c-html.jpg"></h2>
 
 * CSS - No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation for:
-    - [blog.css PDF report](docs/testing/validation/w3c-blog-css.pdf)
-    - [checkout.css PDF report](docs/testing/validation/w3c-checkout-css.pdf)
-    - [profile.css PDF report](docs/testing/validation/w3c-profile-css.pdf)
-    - [style.css PDF report](docs/testing/validation/w3c-style-css.pdf)
-    - [sunscribe.css PDF report](docs/testing/validation/w3c-subscribe-css.pdf)
+    - [base.css PDF report](docs/testing/validation/w3c-css-base.pdf)
+    - [blog.css PDF report](docs/testing/validation/w3c-css-blog.pdf)
+    - [checkout.css PDF report](docs/testing/validation/w3c-css-checkout.pdf)
+    - [profile.css PDF report](docs/testing/validation/w3c-css-profile.pdf)
+    - [subscribe.css PDF report](docs/testing/validation/w3c-css-subscribe.pdf)
 
     <h2 align="left"><img src="docs/testing/validation/w3c-css.jpg"></h2>
 
 * JavaScript - No errors or warnings were detected by [JSHint](https://jshint.com/) for:
 
-    - [stripe_element.js PDF report](docs/testing/validation/w3c-stripeelement-js.pdf)
-    - [countryfield.js PDF report](docs/testing/validation/w3c-countryfield-js.pdf)
+    - [stripe_element.js PDF report](docs/testing/validation/js-stripeelement.pdf)
+    - [countryfield.js PDF report](docs/testing/validation/js-countryfield.pdf)
 
     <h2 align="left"><img src="docs/testing/validation/jshint.jpg"></h2>
 
 * Python - No errors or warnings were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for: 
+    - custom_storages.py
+
+    <h2 align="left"><img src="docs/testing/validation/py-customstorages.jpg"></h2>
+ 
     - manage.py
 
     <h2 align="left"><img src="docs/testing/validation/py-manage.jpg"></h2>
@@ -1191,17 +1190,11 @@ python manage.py test blog
         <h2 align="left"><img src="docs/testing/validation/py-checkout-webhooks.jpg"></h2>
 
     - click_collect/
-        - asgi.py
-        <h2 align="left"><img src="docs/testing/validation/py-clickcollect-asgi.jpg"></h2>
-
         - settings.py
         <h2 align="left"><img src="docs/testing/validation/py-clickcollect-settings.jpg"></h2>
 
         - urls.py
         <h2 align="left"><img src="docs/testing/validation/py-clickcollect-urls.jpg"></h2>
-
-        - wsgi.py
-        <h2 align="left"><img src="docs/testing/validation/py-clickcollect-wsgi.jpg"></h2>
 
     - home/
         - apps.py
@@ -1303,22 +1296,13 @@ python manage.py test blog
 
     - [subscribe.html PDF report](docs/testing/validation/lighthouse-desk-subscribe.pdf)
 
-    - [already_logged_in.html PDF report](docs/testing/validation/lighthouse-desk-alreadylogged.pdf)
-    - [allauth/base.html PDF report](docs/testing/validation/lighthouse-desk-allauthbase.pdf)
     - [email_confirm.html PDF report](docs/testing/validation/lighthouse-desk-emailconfirm.pdf)
-    - [email.html PDF report](docs/testing/validation/lighthouse-desk-email.pdf)
     - [login.html PDF report](docs/testing/validation/lighthouse-desk-login.pdf)
     - [logout.html PDF report](docs/testing/validation/lighthouse-desk-logout.pdf)
-    - [password_change.html PDF report](docs/testing/validation/lighthouse-desk-passwordchange.pdf)
     - [password_reset_done.html PDF report](docs/testing/validation/lighthouse-desk-passwordresetdone.pdf)
     - [password_reset.html PDF report](docs/testing/validation/lighthouse-desk-passwordreset.pdf)
-    - [password_set.html PDF report](docs/testing/validation/lighthouse-desk-passwordset.pdf)    
     - [signup.html PDF report](docs/testing/validation/lighthouse-desk-signup.pdf)
     - [verification_sent.html PDF report](docs/testing/validation/lighthouse-desk-verificationsent.pdf)
-
-    - [404.html PDF report](docs/testing/validation/lighthouse-desk-404.pdf)
-    - [500.html PDF report](docs/testing/validation/lighthouse-desk-500.pdf)
-    - [base.html PDF report](docs/testing/validation/lighthouse-desk-base.pdf)
 
 ### Mobile audits
 
@@ -1346,19 +1330,10 @@ python manage.py test blog
 
     - [subscribe.html PDF report](docs/testing/validation/lighthouse-mob-subscribe.pdf)
 
-    - [already_logged_in.html PDF report](docs/testing/validation/lighthouse-mob-alreadylogged.pdf)
-    - [allauth/base.html PDF report](docs/testing/validation/lighthouse-mob-allauthbase.pdf)
     - [email_confirm.html PDF report](docs/testing/validation/lighthouse-mob-emailconfirm.pdf)
-    - [email.html PDF report](docs/testing/validation/lighthouse-mob-email.pdf)
     - [login.html PDF report](docs/testing/validation/lighthouse-mob-login.pdf)
     - [logout.html PDF report](docs/testing/validation/lighthouse-mob-logout.pdf)
-    - [password_change.html PDF report](docs/testing/validation/lighthouse-mob-passwordchange.pdf)
     - [password_reset_done.html PDF report](docs/testing/validation/lighthouse-mob-passwordresetdone.pdf)
     - [password_reset.html PDF report](docs/testing/validation/lighthouse-mob-passwordreset.pdf)
-    - [password_set.html PDF report](docs/testing/validation/lighthouse-mob-passwordset.pdf)    
     - [signup.html PDF report](docs/testing/validation/lighthouse-mob-signup.pdf)
     - [verification_sent.html PDF report](docs/testing/validation/lighthouse-mob-verificationsent.pdf)
-
-    - [404.html PDF report](docs/testing/validation/lighthouse-mob-404.pdf)
-    - [500.html PDF report](docs/testing/validation/lighthouse-mob-500.pdf)
-    - [base.html PDF report](docs/testing/validation/lighthouse-mob-base.pdf)
