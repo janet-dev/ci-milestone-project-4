@@ -1067,210 +1067,221 @@ python manage.py test blog
 
 ---
 
-## Code Validation
 
-* HTML - No errors or warnings were detected by [W3C](https://validator.w3.org/#validate_by_input) Validation for pages:
+# Code Validation
 
-    - [bag.html PDF report](docs/testing/validation/w3c-html-bag.pdf)
+## HTML
 
-    - [post_detail.html PDF report](docs/testing/validation/w3c-html-postdetail.pdf)
-    - [post_list.html PDF report](docs/testing/validation/w3c-html-postlist.pdf)
+No errors or warnings were detected by [W3C](https://validator.w3.org/#validate_by_input) Validation for pages:
 
-    - [checkout_success.html PDF report](docs/testing/validation/w3c-html-checkoutsuccess.pdf)
-    - [checkout.html PDF report](docs/testing/validation/w3c-html-checkout.pdf)
+- [bag.html PDF report](docs/testing/validation/w3c-html-bag.pdf)
 
-    - [index.html PDF report](docs/testing/validation/w3c-html-index.pdf)
+- [post_detail.html PDF report](docs/testing/validation/w3c-html-postdetail.pdf)
+- [post_list.html PDF report](docs/testing/validation/w3c-html-postlist.pdf)
 
-    - [add_product.html PDF report](docs/testing/validation/w3c-html-addproduct.pdf)
-    - [edit_product.html PDF report](docs/testing/validation/w3c-html-editproduct.pdf)
-    - [product_detail.html PDF report](docs/testing/validation/w3c-html-productdetail.pdf)
-    - [products.html PDF report](docs/testing/validation/w3c-html-products.pdf)
+- [checkout_success.html PDF report](docs/testing/validation/w3c-html-checkoutsuccess.pdf)
+- [checkout.html PDF report](docs/testing/validation/w3c-html-checkout.pdf)
+
+- [index.html PDF report](docs/testing/validation/w3c-html-index.pdf)
+
+- [add_product.html PDF report](docs/testing/validation/w3c-html-addproduct.pdf)
+- [edit_product.html PDF report](docs/testing/validation/w3c-html-editproduct.pdf)
+- [product_detail.html PDF report](docs/testing/validation/w3c-html-productdetail.pdf)
+- [products.html PDF report](docs/testing/validation/w3c-html-products.pdf)
+
+- [profile.html PDF report](docs/testing/validation/w3c-html-profile.pdf)
+
+- [subscribe.html PDF report](docs/testing/validation/w3c-html-subscribe.pdf)
+
+- [email_confirm.html PDF report](docs/testing/validation/w3c-html-emailconfirm.pdf)
+- [login.html PDF report](docs/testing/validation/w3c-html-login.pdf)
+- [logout.html PDF report](docs/testing/validation/w3c-html-logout.pdf)
+- [password_reset_done.html PDF report](docs/testing/validation/w3c-html-passwordresetdone.pdf)
+- [password_reset.html PDF report](docs/testing/validation/w3c-html-passwordreset.pdf)
+- [signup.html PDF report](docs/testing/validation/w3c-html-signup.pdf)
+- [verification_sent.html PDF report](docs/testing/validation/w3c-html-verificationsent.pdf)
+
+- [404.html PDF report](docs/testing/validation/w3c-html-404.pdf)
+- [500.html PDF report](docs/testing/validation/w3c-html-500.pdf)
+- [base.html PDF report](docs/testing/validation/w3c-html-base.pdf)
+
+<h2 align="left"><img src="docs/testing/validation/w3c-html.jpg"></h2>
+
+## CSS
+
+No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation for:
+
+- [base.css PDF report](docs/testing/validation/w3c-css-base.pdf)
+- [blog.css PDF report](docs/testing/validation/w3c-css-blog.pdf)
+- [checkout.css PDF report](docs/testing/validation/w3c-css-checkout.pdf)
+- [profile.css PDF report](docs/testing/validation/w3c-css-profile.pdf)
+- [subscribe.css PDF report](docs/testing/validation/w3c-css-subscribe.pdf)
+
+<h2 align="left"><img src="docs/testing/validation/w3c-css.jpg"></h2>
+
+## JavaScript
+
+No errors were detected by [JSHint](https://jshint.com/) for:
+
+- [stripe_element.js PDF report](docs/testing/validation/js-stripeelement.pdf)
+- [countryfield.js PDF report](docs/testing/validation/js-countryfield.pdf)
+
+<h2 align="left"><img src="docs/testing/validation/jshint.jpg"></h2>
+
+## Python
+
+No errors but 5 linting (line too long) warnings were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for: 
+
+- custom_storages.py
+
+<h2 align="left"><img src="docs/testing/validation/py-customstorages.jpg"></h2>
+
+- manage.py
+
+<h2 align="left"><img src="docs/testing/validation/py-manage.jpg"></h2>
+
+- bag/
+    - apps.py
+    <h2 align="left"><img src="docs/testing/validation/py-bag-apps.jpg"></h2>
+
+    - contexts.py
+    <h2 align="left"><img src="docs/testing/validation/py-bag-contexts.jpg"></h2>
+
+    - urls.py
+    <h2 align="left"><img src="docs/testing/validation/py-bag-urls.jpg"></h2>
+
+    - views.py
+    <h2 align="left"><img src="docs/testing/validation/py-bag-views.jpg"></h2>
+
+- blog/
+    - admin.py
+    <h2 align="left"><img src="docs/testing/validation/py-blog-admin.jpg"></h2>
+
+    - apps.py
+    <h2 align="left"><img src="docs/testing/validation/py-blog-apps.jpg"></h2>
+
+    - models.py
+    <h2 align="left"><img src="docs/testing/validation/py-blog-models.jpg"></h2>
+
+    - tests.py
+    <h2 align="left"><img src="docs/testing/validation/py-blog-tests.jpg"></h2>
+
+    - urls.py
+    <h2 align="left"><img src="docs/testing/validation/py-blog-urls.jpg"></h2>
+
+    - views.py
+    <h2 align="left"><img src="docs/testing/validation/py-blog-views.jpg"></h2>
+
+- checkout/
+    - admin.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-admin.jpg"></h2>
+
+    - apps.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-apps.jpg"></h2>
+
+    - forms.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-forms.jpg"></h2>
+
+    - models.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-models.jpg"></h2>
+
+    - signals.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-signals.jpg"></h2>
+
+    - urls.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-urls.jpg"></h2>
+
+    - views.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-views.jpg"></h2>
+
+    - webhook_handler.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-webhookhandler.jpg"></h2>
+
+    - webhooks.py
+    <h2 align="left"><img src="docs/testing/validation/py-checkout-webhooks.jpg"></h2>
+
+- click_collect/
+    - settings.py
+    <h2 align="left"><img src="docs/testing/validation/py-clickcollect-settings.jpg"></h2>
+
+    - urls.py
+    <h2 align="left"><img src="docs/testing/validation/py-clickcollect-urls.jpg"></h2>
+
+- home/
+    - apps.py
+    <h2 align="left"><img src="docs/testing/validation/py-home-apps.jpg"></h2>
+
+    - models.py
+    <h2 align="left"><img src="docs/testing/validation/py-home-models.jpg"></h2>
+
+    - urls.py
+    <h2 align="left"><img src="docs/testing/validation/py-home-urls.jpg"></h2>
+
+    - views.py
+    <h2 align="left"><img src="docs/testing/validation/py-home-views.jpg"></h2>
+
+- products/
+    - admin.py
+    <h2 align="left"><img src="docs/testing/validation/py-products-admin.jpg"></h2>
+
+    - apps.py
+    <h2 align="left"><img src="docs/testing/validation/py-products-apps.jpg"></h2>
+
+    - forms.py
+    <h2 align="left"><img src="docs/testing/validation/py-products-forms.jpg"></h2>
+
+    - models.py
+    <h2 align="left"><img src="docs/testing/validation/py-products-models.jpg"></h2>
+
+    - urls.py
+    <h2 align="left"><img src="docs/testing/validation/py-products-urls.jpg"></h2>
+
+    - views.py
+    <h2 align="left"><img src="docs/testing/validation/py-products-views.jpg"></h2>
+
+    - widgets.py
+    <h2 align="left"><img src="docs/testing/validation/py-products-widgets.jpg"></h2>
+
+- profiles/
+    - apps.py
+    <h2 align="left"><img src="docs/testing/validation/py-profiles-apps.jpg"></h2>
+
+    - forms.py
+    <h2 align="left"><img src="docs/testing/validation/py-profiles-forms.jpg"></h2>
+
+    - models.py
+    <h2 align="left"><img src="docs/testing/validation/py-profiles-models.jpg"></h2>
     
-    - [profile.html PDF report](docs/testing/validation/w3c-html-profile.pdf)
+    - urls.py
+    <h2 align="left"><img src="docs/testing/validation/py-profiles-urls.jpg"></h2>
 
-    - [subscribe.html PDF report](docs/testing/validation/w3c-html-subscribe.pdf)
+    - views.py
+    <h2 align="left"><img src="docs/testing/validation/py-profiles-views.jpg"></h2>
 
-    - [email_confirm.html PDF report](docs/testing/validation/w3c-html-emailconfirm.pdf)
-    - [login.html PDF report](docs/testing/validation/w3c-html-login.pdf)
-    - [logout.html PDF report](docs/testing/validation/w3c-html-logout.pdf)
-    - [password_reset_done.html PDF report](docs/testing/validation/w3c-html-passwordresetdone.pdf)
-    - [password_reset.html PDF report](docs/testing/validation/w3c-html-passwordreset.pdf)
-    - [signup.html PDF report](docs/testing/validation/w3c-html-signup.pdf)
-    - [verification_sent.html PDF report](docs/testing/validation/w3c-html-verificationsent.pdf)
+- subscribe/
+    - admin.py
+    <h2 align="left"><img src="docs/testing/validation/py-subscribe-admin.jpg"></h2>
 
-    - [404.html PDF report](docs/testing/validation/w3c-html-404.pdf)
-    - [500.html PDF report](docs/testing/validation/w3c-html-500.pdf)
-    - [base.html PDF report](docs/testing/validation/w3c-html-base.pdf)
+    - apps.py
+    <h2 align="left"><img src="docs/testing/validation/py-subscribe-apps.jpg"></h2>
 
-    <h2 align="left"><img src="docs/testing/validation/w3c-html.jpg"></h2>
+    - forms.py
+    <h2 align="left"><img src="docs/testing/validation/py-subscribe-forms.jpg"></h2>
 
-* CSS - No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation for:
-    - [base.css PDF report](docs/testing/validation/w3c-css-base.pdf)
-    - [blog.css PDF report](docs/testing/validation/w3c-css-blog.pdf)
-    - [checkout.css PDF report](docs/testing/validation/w3c-css-checkout.pdf)
-    - [profile.css PDF report](docs/testing/validation/w3c-css-profile.pdf)
-    - [subscribe.css PDF report](docs/testing/validation/w3c-css-subscribe.pdf)
+    - models.py
+    <h2 align="left"><img src="docs/testing/validation/py-subscribe-models.jpg"></h2>
 
-    <h2 align="left"><img src="docs/testing/validation/w3c-css.jpg"></h2>
+    - urls.py
+    <h2 align="left"><img src="docs/testing/validation/py-subscribe-urls.jpg"></h2>
 
-* JavaScript - No errors or warnings were detected by [JSHint](https://jshint.com/) for:
-
-    - [stripe_element.js PDF report](docs/testing/validation/js-stripeelement.pdf)
-    - [countryfield.js PDF report](docs/testing/validation/js-countryfield.pdf)
-
-    <h2 align="left"><img src="docs/testing/validation/jshint.jpg"></h2>
-
-* Python - No errors or warnings were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for: 
-    - custom_storages.py
-
-    <h2 align="left"><img src="docs/testing/validation/py-customstorages.jpg"></h2>
- 
-    - manage.py
-
-    <h2 align="left"><img src="docs/testing/validation/py-manage.jpg"></h2>
-
-    - bag/
-        - apps.py
-        <h2 align="left"><img src="docs/testing/validation/py-bag-apps.jpg"></h2>
-
-        - contexts.py
-        <h2 align="left"><img src="docs/testing/validation/py-bag-contexts.jpg"></h2>
-
-        - urls.py
-        <h2 align="left"><img src="docs/testing/validation/py-bag-urls.jpg"></h2>
-
-        - views.py
-        <h2 align="left"><img src="docs/testing/validation/py-bag-views.jpg"></h2>
-
-    - blog/
-        - admin.py
-        <h2 align="left"><img src="docs/testing/validation/py-blog-admin.jpg"></h2>
-
-        - apps.py
-        <h2 align="left"><img src="docs/testing/validation/py-blog-apps.jpg"></h2>
-
-        - models.py
-        <h2 align="left"><img src="docs/testing/validation/py-blog-models.jpg"></h2>
-
-        - tests.py
-        <h2 align="left"><img src="docs/testing/validation/py-blog-tests.jpg"></h2>
-
-        - urls.py
-        <h2 align="left"><img src="docs/testing/validation/py-blog-urls.jpg"></h2>
-
-        - views.py
-        <h2 align="left"><img src="docs/testing/validation/py-blog-views.jpg"></h2>
-
-    - checkout/
-        - admin.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-admin.jpg"></h2>
-
-        - apps.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-apps.jpg"></h2>
-
-        - forms.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-forms.jpg"></h2>
-
-        - models.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-models.jpg"></h2>
-
-        - signals.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-signals.jpg"></h2>
-
-        - urls.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-urls.jpg"></h2>
-
-        - views.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-views.jpg"></h2>
-
-        - webhook_handler.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-webhookhandler.jpg"></h2>
-
-        - webhooks.py
-        <h2 align="left"><img src="docs/testing/validation/py-checkout-webhooks.jpg"></h2>
-
-    - click_collect/
-        - settings.py
-        <h2 align="left"><img src="docs/testing/validation/py-clickcollect-settings.jpg"></h2>
-
-        - urls.py
-        <h2 align="left"><img src="docs/testing/validation/py-clickcollect-urls.jpg"></h2>
-
-    - home/
-        - apps.py
-        <h2 align="left"><img src="docs/testing/validation/py-home-apps.jpg"></h2>
-
-        - models.py
-        <h2 align="left"><img src="docs/testing/validation/py-home-models.jpg"></h2>
-
-        - urls.py
-        <h2 align="left"><img src="docs/testing/validation/py-home-urls.jpg"></h2>
-
-        - views.py
-        <h2 align="left"><img src="docs/testing/validation/py-home-views.jpg"></h2>
-
-    - products/
-        - admin.py
-        <h2 align="left"><img src="docs/testing/validation/py-products-admin.jpg"></h2>
-
-        - apps.py
-        <h2 align="left"><img src="docs/testing/validation/py-products-apps.jpg"></h2>
-
-        - forms.py
-        <h2 align="left"><img src="docs/testing/validation/py-products-forms.jpg"></h2>
-
-        - models.py
-        <h2 align="left"><img src="docs/testing/validation/py-products-models.jpg"></h2>
-
-        - urls.py
-        <h2 align="left"><img src="docs/testing/validation/py-products-urls.jpg"></h2>
-
-        - views.py
-        <h2 align="left"><img src="docs/testing/validation/py-products-views.jpg"></h2>
-
-        - widgets.py
-        <h2 align="left"><img src="docs/testing/validation/py-products-widgets.jpg"></h2>
-
-    - profiles/
-        - apps.py
-        <h2 align="left"><img src="docs/testing/validation/py-profiles-apps.jpg"></h2>
-
-        - forms.py
-        <h2 align="left"><img src="docs/testing/validation/py-profiles-forms.jpg"></h2>
-
-        - models.py
-        <h2 align="left"><img src="docs/testing/validation/py-profiles-models.jpg"></h2>
-        
-        - urls.py
-        <h2 align="left"><img src="docs/testing/validation/py-profiles-urls.jpg"></h2>
-
-        - views.py
-        <h2 align="left"><img src="docs/testing/validation/py-profiles-views.jpg"></h2>
-
-    - subscribe/
-        - admin.py
-        <h2 align="left"><img src="docs/testing/validation/py-subscribe-admin.jpg"></h2>
-
-        - apps.py
-        <h2 align="left"><img src="docs/testing/validation/py-subscribe-apps.jpg"></h2>
-
-        - forms.py
-        <h2 align="left"><img src="docs/testing/validation/py-subscribe-forms.jpg"></h2>
-
-        - models.py
-        <h2 align="left"><img src="docs/testing/validation/py-subscribe-models.jpg"></h2>
-
-        - urls.py
-        <h2 align="left"><img src="docs/testing/validation/py-subscribe-urls.jpg"></h2>
-
-        - views.py
-        <h2 align="left"><img src="docs/testing/validation/py-subscribe-views.jpg"></h2>
+    - views.py
+    <h2 align="left"><img src="docs/testing/validation/py-subscribe-views.jpg"></h2>
 
 ---
 
-## Site Audit
+# Site Audit
 
-### Desktop audits
+## Desktop audits
 
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) average scores:
 
@@ -1304,7 +1315,7 @@ python manage.py test blog
     - [signup.html PDF report](docs/testing/audit/lighthouse-desk-signup.pdf)
     - [verification_sent.html PDF report](docs/testing/audit/lighthouse-desk-verificationsent.pdf)
 
-### Mobile audits
+## Mobile audits
 
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) average scores:
 

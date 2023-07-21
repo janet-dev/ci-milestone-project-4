@@ -462,8 +462,8 @@ Only the **administrator** can view this page in order to add categories.
 * HTML validation from [W3C](https://validator.w3.org/#validate_by_input).
 * CSS validation from [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/).
 * Python validation from [CI Python Linter](https://pep8ci.herokuapp.com/).
-* jQuery validation from [JSHint](https://jshint.com/).
-* Web page quality improvements assisted by [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) and [WebPageTest](https://www.webpagetest.org/).
+* JavaScript validation from [JSHint](https://jshint.com/).
+* Site audit by [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/).
 
 ---
 
@@ -500,11 +500,9 @@ Emoji shortcodes from [Ikatyang](https://github.com/ikatyang/emoji-cheat-sheet/b
 
 ### Code
 
-Although the code is the work of the author, some of the code has been sourced from or inspired by others.
+Although this project is the work of the author, the code is based on the [Boutique Ado Tutorial](https://github.com/Code-Institute-Solutions/boutique_ado_v1) by Chris Z for Code Institute.
 
-Many of the references have been embedded as links throughout this document and indicated by the active blue text links.
-
-The code is based on [Boutique Ado Tutorial](https://github.com/Code-Institute-Solutions/boutique_ado_v1) by Chris Z for Code Institute
+Other code sourced from or inspired by others have references embedded as links throughout this document and indicated by the active blue text links.
 
 The Blog App code is based on the Djangocentral tutorial [Building A Blog Application With Django](https://djangocentral.com/building-a-blog-application-with-django/) by Abhijeet Pal
 
