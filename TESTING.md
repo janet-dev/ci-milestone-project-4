@@ -1272,68 +1272,68 @@ python manage.py test blog
 
 ### Desktop audits
 
-* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) minimum scores:
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) average scores:
 
-    <h2 align="left"><img src="docs/testing/audit/lighthouse-min-desk.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/audit/lighthouse-avg-desk.jpg"></h2>
 
     Full PDF reports:
-    - [bag.html PDF report](docs/testing/validation/lighthouse-desk-bag.pdf)
+    - [bag.html PDF report](docs/testing/audit/lighthouse-desk-bag.pdf)
 
-    - [post_detail.html PDF report](docs/testing/validation/lighthouse-desk-postdetail.pdf)
-    - [post_list.html PDF report](docs/testing/validation/lighthouse-desk-postlist.pdf)
+    - [post_detail.html PDF report](docs/testing/audit/lighthouse-desk-postdetail.pdf)
+    - [post_list.html PDF report](docs/testing/audit/lighthouse-desk-postlist.pdf)
 
-    - [checkout_success.html PDF report](docs/testing/validation/lighthouse-desk-checkoutsuccess.pdf)
-    - [checkout.html PDF report](docs/testing/validation/lighthouse-desk-checkout.pdf)
+    - [checkout_success.html PDF report](docs/testing/audit/lighthouse-desk-checkoutsuccess.pdf)
+    - [checkout.html PDF report](docs/testing/audit/lighthouse-desk-checkout.pdf)
 
-    - [index.html PDF report](docs/testing/validation/lighthouse-desk-index.pdf)
+    - [index.html PDF report](docs/testing/audit/lighthouse-desk-index.pdf)
 
-    - [add_product.html PDF report](docs/testing/validation/lighthouse-desk-addproduct.pdf)
-    - [edit_product.html PDF report](docs/testing/validation/lighthouse-desk-editproduct.pdf)
-    - [product_detail.html PDF report](docs/testing/validation/lighthouse-desk-productdetail.pdf)
-    - [products.html PDF report](docs/testing/validation/lighthouse-desk-products.pdf)
+    - [add_product.html PDF report](docs/testing/audit/lighthouse-desk-addproduct.pdf)
+    - [edit_product.html PDF report](docs/testing/audit/lighthouse-desk-editproduct.pdf)
+    - [product_detail.html PDF report](docs/testing/audit/lighthouse-desk-productdetail.pdf)
+    - [products.html PDF report](docs/testing/audit/lighthouse-desk-products.pdf)
     
-    - [profile.html PDF report](docs/testing/validation/lighthouse-desk-profile.pdf)
+    - [profile.html PDF report](docs/testing/audit/lighthouse-desk-profile.pdf)
 
-    - [subscribe.html PDF report](docs/testing/validation/lighthouse-desk-subscribe.pdf)
+    - [subscribe.html PDF report](docs/testing/audit/lighthouse-desk-subscribe.pdf)
 
-    - [email_confirm.html PDF report](docs/testing/validation/lighthouse-desk-emailconfirm.pdf)
-    - [login.html PDF report](docs/testing/validation/lighthouse-desk-login.pdf)
-    - [logout.html PDF report](docs/testing/validation/lighthouse-desk-logout.pdf)
-    - [password_reset_done.html PDF report](docs/testing/validation/lighthouse-desk-passwordresetdone.pdf)
-    - [password_reset.html PDF report](docs/testing/validation/lighthouse-desk-passwordreset.pdf)
-    - [signup.html PDF report](docs/testing/validation/lighthouse-desk-signup.pdf)
-    - [verification_sent.html PDF report](docs/testing/validation/lighthouse-desk-verificationsent.pdf)
+    - [email_confirm.html PDF report](docs/testing/audit/lighthouse-desk-emailconfirm.pdf)
+    - [login.html PDF report](docs/testing/audit/lighthouse-desk-login.pdf)
+    - [logout.html PDF report](docs/testing/audit/lighthouse-desk-logout.pdf)
+    - [password_reset_done.html PDF report](docs/testing/audit/lighthouse-desk-passwordresetdone.pdf)
+    - [password_reset.html PDF report](docs/testing/audit/lighthouse-desk-passwordreset.pdf)
+    - [signup.html PDF report](docs/testing/audit/lighthouse-desk-signup.pdf)
+    - [verification_sent.html PDF report](docs/testing/audit/lighthouse-desk-verificationsent.pdf)
 
 ### Mobile audits
 
-* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) minimum scores:
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) average scores:
 
-    <h2 align="left"><img src="docs/testing/audit/lighthouse-min-mob.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/audit/lighthouse-avg-mob.jpg"></h2>
 
     Full PDF reports:
-    - [bag.html PDF report](docs/testing/validation/lighthouse-mob-bag.pdf)
+    - [bag.html PDF report](docs/testing/audit/lighthouse-mob-bag.pdf)
 
-    - [post_detail.html PDF report](docs/testing/validation/lighthouse-mob-postdetail.pdf)
-    - [post_list.html PDF report](docs/testing/validation/lighthouse-mob-postlist.pdf)
+    - [post_detail.html PDF report](docs/testing/audit/lighthouse-mob-postdetail.pdf)
+    - [post_list.html PDF report](docs/testing/audit/lighthouse-mob-postlist.pdf)
 
-    - [checkout_success.html PDF report](docs/testing/validation/lighthouse-mob-checkoutsuccess.pdf)
-    - [checkout.html PDF report](docs/testing/validation/lighthouse-mob-checkout.pdf)
+    - [checkout_success.html PDF report](docs/testing/audit/lighthouse-mob-checkoutsuccess.pdf)
+    - [checkout.html PDF report](docs/testing/audit/lighthouse-mob-checkout.pdf)
 
-    - [index.html PDF report](docs/testing/validation/lighthouse-mob-index.pdf)
+    - [index.html PDF report](docs/testing/audit/lighthouse-mob-index.pdf)
 
-    - [add_product.html PDF report](docs/testing/validation/lighthouse-mob-addproduct.pdf)
-    - [edit_product.html PDF report](docs/testing/validation/lighthouse-mob-editproduct.pdf)
-    - [product_detail.html PDF report](docs/testing/validation/lighthouse-mob-productdetail.pdf)
-    - [products.html PDF report](docs/testing/validation/lighthouse-mob-products.pdf)
+    - [add_product.html PDF report](docs/testing/audit/lighthouse-mob-addproduct.pdf)
+    - [edit_product.html PDF report](docs/testing/audit/lighthouse-mob-editproduct.pdf)
+    - [product_detail.html PDF report](docs/testing/audit/lighthouse-mob-productdetail.pdf)
+    - [products.html PDF report](docs/testing/audit/lighthouse-mob-products.pdf)
     
-    - [profile.html PDF report](docs/testing/validation/lighthouse-mob-profile.pdf)
+    - [profile.html PDF report](docs/testing/audit/lighthouse-mob-profile.pdf)
 
-    - [subscribe.html PDF report](docs/testing/validation/lighthouse-mob-subscribe.pdf)
+    - [subscribe.html PDF report](docs/testing/audit/lighthouse-mob-subscribe.pdf)
 
-    - [email_confirm.html PDF report](docs/testing/validation/lighthouse-mob-emailconfirm.pdf)
-    - [login.html PDF report](docs/testing/validation/lighthouse-mob-login.pdf)
-    - [logout.html PDF report](docs/testing/validation/lighthouse-mob-logout.pdf)
-    - [password_reset_done.html PDF report](docs/testing/validation/lighthouse-mob-passwordresetdone.pdf)
-    - [password_reset.html PDF report](docs/testing/validation/lighthouse-mob-passwordreset.pdf)
-    - [signup.html PDF report](docs/testing/validation/lighthouse-mob-signup.pdf)
-    - [verification_sent.html PDF report](docs/testing/validation/lighthouse-mob-verificationsent.pdf)
+    - [email_confirm.html PDF report](docs/testing/audit/lighthouse-mob-emailconfirm.pdf)
+    - [login.html PDF report](docs/testing/audit/lighthouse-mob-login.pdf)
+    - [logout.html PDF report](docs/testing/audit/lighthouse-mob-logout.pdf)
+    - [password_reset_done.html PDF report](docs/testing/audit/lighthouse-mob-passwordresetdone.pdf)
+    - [password_reset.html PDF report](docs/testing/audit/lighthouse-mob-passwordreset.pdf)
+    - [signup.html PDF report](docs/testing/audit/lighthouse-mob-signup.pdf)
+    - [verification_sent.html PDF report](docs/testing/audit/lighthouse-mob-verificationsent.pdf)
