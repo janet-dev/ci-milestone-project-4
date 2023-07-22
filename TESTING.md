@@ -1189,9 +1189,6 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
     - apps.py
     <h2 align="left"><img src="docs/testing/validation/py-home-apps.jpg"></h2>
 
-    - models.py
-    <h2 align="left"><img src="docs/testing/validation/py-home-models.jpg"></h2>
-
     - urls.py
     <h2 align="left"><img src="docs/testing/validation/py-home-urls.jpg"></h2>
 
