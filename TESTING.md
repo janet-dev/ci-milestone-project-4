@@ -1332,6 +1332,32 @@ No errors were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for
 
 ---
 
+## Compatibility
+
+The majority of testing and validation was carried out on the Chrome browser with a Windows 10 desktop, but to ensure that a broad range of users can successfully use this site, it was also tested with other browsers in both desktop and mobile configuration.
+
+- Chrome v.114
+- Edge v.115
+- Firefox v.106
+- Safari v.13
+- Opera v.99
+
+The results are shown below in a testing matrix:
+
+<h2 align="left"><img src="docs/testing/audit/compatibility.jpg"></h2>
+
+The original Excel version created by Tim Nelson, can be found [here](https://github.com/TravelTimN/ci-milestone04-dcd/blob/main/app/testing/testing-ci-milestone04-dcd.xlsx).
+
+---
+
+## Bugs Found
+
+1. Misalignment of Materialize grid columns
+
+<h2 align="left"><img src="docs/testing/bugs/bug-01.jpg"></h2>
+
+- Solved by assigning margin-left to 0 
+
 ---
 
 # Automated Testing 
