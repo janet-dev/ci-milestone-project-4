@@ -1289,6 +1289,8 @@ No errors were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for
     - [logout.html PDF report](docs/testing/audit/lighthouse-desk-logout.pdf)
     - [password_reset_done.html PDF report](docs/testing/audit/lighthouse-desk-passwordresetdone.pdf)
     - [password_reset.html PDF report](docs/testing/audit/lighthouse-desk-passwordreset.pdf)
+    - [password_reset_from_key.html PDF report](docs/testing/audit/lighthouse-desk-passwordresetkey.pdf)
+    - [password_reset_from_key.html PDF report](docs/testing/audit/lighthouse-desk-passwordresetkeydone.pdf)
     - [signup.html PDF report](docs/testing/audit/lighthouse-desk-signup.pdf)
     - [verification_sent.html PDF report](docs/testing/audit/lighthouse-desk-verificationsent.pdf)
 
@@ -1323,6 +1325,8 @@ No errors were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for
     - [logout.html PDF report](docs/testing/audit/lighthouse-mob-logout.pdf)
     - [password_reset_done.html PDF report](docs/testing/audit/lighthouse-mob-passwordresetdone.pdf)
     - [password_reset.html PDF report](docs/testing/audit/lighthouse-mob-passwordreset.pdf)
+    - [password_reset_from_key.html PDF report](docs/testing/audit/lighthouse-mob-passwordresetkey.pdf)
+    - [password_reset_from_key.html PDF report](docs/testing/audit/lighthouse-mob-passwordresetkeydone.pdf)
     - [signup.html PDF report](docs/testing/audit/lighthouse-mob-signup.pdf)
     - [verification_sent.html PDF report](docs/testing/audit/lighthouse-mob-verificationsent.pdf)
 
