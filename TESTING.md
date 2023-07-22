@@ -1054,8 +1054,8 @@ No errors were detected by [W3C](https://validator.w3.org/#validate_by_input) Va
 
 - [index.html PDF report](docs/testing/validation/w3c-html-index.pdf)
 
-- [add_product.html PDF report](docs/testing/validation/w3c-html-addproduct.pdf)
-- [edit_product.html PDF report](docs/testing/validation/w3c-html-editproduct.pdf)
+- [add_product.html PDF report](docs/testing/validation/w3c-html-productadd.pdf)
+- [edit_product.html PDF report](docs/testing/validation/w3c-html-productedit.pdf)
 - [product_detail.html PDF report](docs/testing/validation/w3c-html-productdetail.pdf)
 - [products.html PDF report](docs/testing/validation/w3c-html-products.pdf)
 
