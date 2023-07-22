@@ -1042,7 +1042,7 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 
 ### HTML
 
-No errors or warnings were detected by [W3C](https://validator.w3.org/#validate_by_input) Validation for pages:
+No errors were detected by [W3C](https://validator.w3.org/#validate_by_input) Validation for pages:
 
 - [bag.html PDF report](docs/testing/validation/w3c-html-bag.pdf)
 
@@ -1063,23 +1063,26 @@ No errors or warnings were detected by [W3C](https://validator.w3.org/#validate_
 
 - [subscribe.html PDF report](docs/testing/validation/w3c-html-subscribe.pdf)
 
-- [email_confirm.html PDF report](docs/testing/validation/w3c-html-emailconfirm.pdf)
-- [login.html PDF report](docs/testing/validation/w3c-html-login.pdf)
-- [logout.html PDF report](docs/testing/validation/w3c-html-logout.pdf)
-- [password_reset_done.html PDF report](docs/testing/validation/w3c-html-passwordresetdone.pdf)
-- [password_reset.html PDF report](docs/testing/validation/w3c-html-passwordreset.pdf)
 - [signup.html PDF report](docs/testing/validation/w3c-html-signup.pdf)
 - [verification_sent.html PDF report](docs/testing/validation/w3c-html-verificationsent.pdf)
+- [email_confirm.html PDF report](docs/testing/validation/w3c-html-emailconfirm.pdf)
+
+- [login.html PDF report](docs/testing/validation/w3c-html-signin.pdf)
+- [logout.html PDF report](docs/testing/validation/w3c-html-signout.pdf)
+
+- [password_reset.html PDF report](docs/testing/validation/w3c-html-passwordreset.pdf)
+- [password_reset_done.html PDF report](docs/testing/validation/w3c-html-passwordresetdone.pdf)
+- [password_reset_from_key.html PDF report](docs/testing/validation/w3c-html-passwordresetkey.pdf)
+- [password_reset_from_key_done.html PDF report](docs/testing/validation/w3c-html-passwordresetkeydone.pdf)
 
 - [404.html PDF report](docs/testing/validation/w3c-html-404.pdf)
 - [500.html PDF report](docs/testing/validation/w3c-html-500.pdf)
-- [base.html PDF report](docs/testing/validation/w3c-html-base.pdf)
 
 <h2 align="left"><img src="docs/testing/validation/w3c-html.jpg"></h2>
 
 ### CSS
 
-No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation for:
+No errors were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation for:
 
 - [base.css PDF report](docs/testing/validation/w3c-css-base.pdf)
 - [blog.css PDF report](docs/testing/validation/w3c-css-blog.pdf)
@@ -1091,7 +1094,7 @@ No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-
 
 ### JavaScript and jQuery
 
-0 errors and 7 warnings were detected by [JSHint](https://jshint.com/) for:
+0 errors were detected by [JSHint](https://jshint.com/) for:
 
 - [stripe_element.js PDF report](docs/testing/validation/js-stripeelement.pdf)
 - [countryfield.js PDF report](docs/testing/validation/js-countryfield.pdf)
@@ -1101,7 +1104,7 @@ No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-
 
 ### Python
 
-No errors but 5 linting (line too long) warnings were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for: 
+No errors were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for: 
 
 - custom_storages.py
 
