@@ -1050,7 +1050,7 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 - [post_list.html PDF report](docs/testing/validation/w3c-html-postlist.pdf)
 
 - [checkout_success.html PDF report](docs/testing/validation/w3c-html-checkoutsuccess.pdf)
-- [checkout.html PDF report ](docs/testing/validation/w3c-html-checkout.pdf) <code style="color: red;"> 1 warning</code>
+- [checkout.html PDF report ](docs/testing/validation/w3c-html-checkout.pdf) <code> 1 warning</code>
 
 
 - [index.html PDF report](docs/testing/validation/w3c-html-index.pdf)
@@ -1099,7 +1099,7 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 
 - [stripe_element.js PDF report](docs/testing/validation/js-stripeelement.pdf)
 - [countryfield.js PDF report](docs/testing/validation/js-countryfield.pdf)
-- [HTML jQuery PDF report](docs/testing/validation/js-html-jquery.pdf)
+- [HTML jQuery PDF report ](docs/testing/validation/js-html-jquery.pdf) <code> 7 warnings</code>
 
 <h2 align="left"><img src="docs/testing/validation/jshint.jpg"></h2>
 
@@ -1175,11 +1175,11 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
     - webhook_handler.py
     <h2 align="left"><img src="docs/testing/validation/py-checkout-webhookhandler.jpg"></h2>
 
-    - <span style="color: red;">webhooks.py</span>
+    - webhooks.py  <code> 1 warning</code>
     <h2 align="left"><img src="docs/testing/validation/py-checkout-webhooks.jpg"></h2>
 
 - click_collect/
-    - <span style="color: red;">settings.py</span>
+    - settings.py  <code> 4 warnings</code>
     <h2 align="left"><img src="docs/testing/validation/py-clickcollect-settings.jpg"></h2>
 
     - urls.py
