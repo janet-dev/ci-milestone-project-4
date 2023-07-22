@@ -1114,6 +1114,9 @@ No errors but 5 linting (line too long) warnings were detected by [CI Python Lin
     - views.py
     <h2 align="left"><img src="docs/testing/validation/py-bag-views.jpg"></h2>
 
+    - templatetags/bag_tools.py
+    <h2 align="left"><img src="docs/testing/validation/py-bag-tools.jpg"></h2>
+
 - blog/
     - admin.py
     <h2 align="left"><img src="docs/testing/validation/py-blog-admin.jpg"></h2>
