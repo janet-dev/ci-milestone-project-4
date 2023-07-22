@@ -1050,7 +1050,7 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 - [post_list.html PDF report](docs/testing/validation/w3c-html-postlist.pdf)
 
 - [checkout_success.html PDF report](docs/testing/validation/w3c-html-checkoutsuccess.pdf)
-- [**<span style="color: red;">checkout.html PDF report</span>**](docs/testing/validation/w3c-html-checkout.pdf)
+- <span style="color: red;">[checkout.html PDF report](docs/testing/validation/w3c-html-checkout.pdf)</span>
 
 
 - [index.html PDF report](docs/testing/validation/w3c-html-index.pdf)
@@ -1175,11 +1175,11 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
     - webhook_handler.py
     <h2 align="left"><img src="docs/testing/validation/py-checkout-webhookhandler.jpg"></h2>
 
-    - **<span style="color: red;">webhooks.py</span>**
+    - <span style="color: red;">webhooks.py</span>
     <h2 align="left"><img src="docs/testing/validation/py-checkout-webhooks.jpg"></h2>
 
 - click_collect/
-    - **<span style="color: red;">settings.py</span>**
+    - <span style="color: red;">settings.py</span>
     <h2 align="left"><img src="docs/testing/validation/py-clickcollect-settings.jpg"></h2>
 
     - urls.py
