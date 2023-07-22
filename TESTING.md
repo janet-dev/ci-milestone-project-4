@@ -1042,7 +1042,7 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 
 ### HTML
 
-No errors were detected by [W3C](https://validator.w3.org/#validate_by_input) Validation for pages:
+0 errors and 1 warning were detected by [W3C](https://validator.w3.org/#validate_by_input) Validation for pages:
 
 - [bag.html PDF report](docs/testing/validation/w3c-html-bag.pdf)
 
@@ -1050,7 +1050,8 @@ No errors were detected by [W3C](https://validator.w3.org/#validate_by_input) Va
 - [post_list.html PDF report](docs/testing/validation/w3c-html-postlist.pdf)
 
 - [checkout_success.html PDF report](docs/testing/validation/w3c-html-checkoutsuccess.pdf)
-- [checkout.html PDF report](docs/testing/validation/w3c-html-checkout.pdf)
+- [**<span style="color: red;">checkout.html PDF report</span>**](docs/testing/validation/w3c-html-checkout.pdf)
+
 
 - [index.html PDF report](docs/testing/validation/w3c-html-index.pdf)
 
@@ -1082,7 +1083,7 @@ No errors were detected by [W3C](https://validator.w3.org/#validate_by_input) Va
 
 ### CSS
 
-No errors were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation for:
+0 errors and 0 warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation for:
 
 - [base.css PDF report](docs/testing/validation/w3c-css-base.pdf)
 - [blog.css PDF report](docs/testing/validation/w3c-css-blog.pdf)
@@ -1094,7 +1095,7 @@ No errors were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#v
 
 ### JavaScript and jQuery
 
-0 errors were detected by [JSHint](https://jshint.com/) for:
+0 errors and 7 warnings were detected by [JSHint](https://jshint.com/) for:
 
 - [stripe_element.js PDF report](docs/testing/validation/js-stripeelement.pdf)
 - [countryfield.js PDF report](docs/testing/validation/js-countryfield.pdf)
@@ -1104,7 +1105,7 @@ No errors were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/#v
 
 ### Python
 
-No errors were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for: 
+0 errors and 5 warnings were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for: 
 
 - custom_storages.py
 
@@ -1174,11 +1175,11 @@ No errors were detected by [CI Python Linter](https://pep8ci.herokuapp.com/) for
     - webhook_handler.py
     <h2 align="left"><img src="docs/testing/validation/py-checkout-webhookhandler.jpg"></h2>
 
-    - webhooks.py
+    - **<span style="color: red;">webhooks.py</span>**
     <h2 align="left"><img src="docs/testing/validation/py-checkout-webhooks.jpg"></h2>
 
 - click_collect/
-    - settings.py
+    - **<span style="color: red;">settings.py</span>**
     <h2 align="left"><img src="docs/testing/validation/py-clickcollect-settings.jpg"></h2>
 
     - urls.py
