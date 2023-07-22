@@ -1080,12 +1080,13 @@ No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-
 
 <h2 align="left"><img src="docs/testing/validation/w3c-css.jpg"></h2>
 
-### JavaScript
+### JavaScript and jQuery
 
 No errors were detected by [JSHint](https://jshint.com/) for:
 
 - [stripe_element.js PDF report](docs/testing/validation/js-stripeelement.pdf)
 - [countryfield.js PDF report](docs/testing/validation/js-countryfield.pdf)
+- [HTML jQuery PDF report](docs/testing/validation/js-html-jquery.pdf)
 
 <h2 align="left"><img src="docs/testing/validation/jshint.jpg"></h2>
 
