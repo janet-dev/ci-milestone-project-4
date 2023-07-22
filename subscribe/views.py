@@ -35,4 +35,4 @@ def subscribe(request):
         'subscribe_form': subscribe_form,
     }
 
-    return render(request, template, context)
+    #return render(request, template, context)
