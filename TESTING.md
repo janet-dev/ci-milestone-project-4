@@ -1082,7 +1082,7 @@ No errors or warnings were detected by [Jigsaw (W3C)](https://jigsaw.w3.org/css-
 
 ### JavaScript and jQuery
 
-No errors were detected by [JSHint](https://jshint.com/) for:
+0 errors and 7 warnings were detected by [JSHint](https://jshint.com/) for:
 
 - [stripe_element.js PDF report](docs/testing/validation/js-stripeelement.pdf)
 - [countryfield.js PDF report](docs/testing/validation/js-countryfield.pdf)
