@@ -1050,7 +1050,7 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 - [post_list.html PDF report](docs/testing/validation/w3c-html-postlist.pdf)
 
 - [checkout_success.html PDF report](docs/testing/validation/w3c-html-checkoutsuccess.pdf)
-- <a href="docs/testing/validation/w3c-html-checkout.pdf" style="color: red;"><strong>checkout.html PDF report</strong></a>
+- [checkout.html PDF report ](docs/testing/validation/w3c-html-checkout.pdf) <code style="color: red;"> 1 warning</code>
 
 
 - [index.html PDF report](docs/testing/validation/w3c-html-index.pdf)
