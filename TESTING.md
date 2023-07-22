@@ -982,6 +982,15 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
     - Step 17
     <h2 align="left"><img src="docs/testing/testcases/subscribe-17.jpg"></h2>
 
+    - Step 18
+    <h2 align="left"><img src="docs/testing/testcases/subscribe-18.jpg"></h2>
+
+    - Step 19
+    <h2 align="left"><img src="docs/testing/testcases/subscribe-19.jpg"></h2>
+
+    - Step 20
+    <h2 align="left"><img src="docs/testing/testcases/subscribe-20.jpg"></h2>
+
 ---
 
 #### Blog Pages
