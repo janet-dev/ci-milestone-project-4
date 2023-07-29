@@ -310,41 +310,48 @@ Table Examples
 
 ### Current Features
 
-* This app consists of pages for:
+* This app consists of the following pages (no login required):
     - Home
     - Products
-    - Product Detail
+    - Product Details
     - Shopping Bag
     - Checkout
+    - Checkout Success
     - Blog List
     - Blog Article
     - Newspaper Subscription
     - Sign Up
     - Sign In
-    - Profile (user/admin login only)
+
+* Two user/admin logged in pages for:
+    - Profile
+    - Password Reset
     - Sign Out
 
-* Plus two additional admin (superuser) pages for:
+* Plus two additional admin (superuser) only pages for:
     - Add Product
     - Edit Product
+
 * And a further set of in-built Django admin pages for user and app management
+
+<h2 align="left"><img src="docs/pictures/admin-django.jpg"></h2>
  
 #### Navigation :compass:
 
-Navigation bar will be the default responsive Bootstrap one.
+Navigation section will be the default responsive Bootstrap one.
 
 * Desktops
 
    The main menu items in bold:
 
-    - **ClickCollect** branding
+    - **ClickCollect** branding for navigation to the **Home** page
     - **Search** our site box
     - **My Account** with dropdown menu for:
         - Register
         - Login
-        - Product Management (Administrator only)
-        - My Profile
-        - Logout
+        - Product Manage (Administrator Only)
+        - My Profile (User Login)
+        - Logout (User Login)
     - **Shopping Bag**
 
     will be inline with the Search box and fixed across the top of the screen. Underneath will be *Product* and *More* menu items:
@@ -364,10 +371,10 @@ Navigation bar will be the default responsive Bootstrap one.
         - Hot Drinks
         - All Drinks
     - **More...** with dropdown menu for:
-        - Our blog
+        - Our Blog
         - Subscribe 
     
-    which will be inline and fixed just above the red *FOLOW US* banner. 
+    which will be inline and fixed just above the red *FOLLOW US* on Facebook banner. 
     
     All dropdown menu items will have dark grey text on a white background and on hover, a light grey backgound.
 
@@ -378,9 +385,9 @@ Navigation bar will be the default responsive Bootstrap one.
         - **My Account** with dropdown menu for:
             - Register
             - Login
-            - Product Management (Administrator only)
-            - My Profile
-            - Logout
+            - Product Manage (Administrator only)
+            - My Profile (User Login)
+            - Logout (User Login)
         - **Shopping Bag** 
 
     - selecting the hamburger icon will reveal a dropdown menu with black text on a white background:
@@ -402,26 +409,83 @@ Navigation bar will be the default responsive Bootstrap one.
         - **More...** with dropdown menu for:
             - Our blog
             - Subscribe 
-    
 
-
-#### Home Page :bouquet:
+#### Home Page :it:
 
 Anyone (guest, member, administrator) can view this page which features a hero image with a call to action **ORDER NOW** button.
 
-#### Register :bust_in_silhouette::heavy_plus_sign:
+#### Products :books:
 
-Anybody can *register* for free and create their own unique profile to store their own order history.
+The products are displayed as cards containing the item image with the following summary:
+- item name
+- price
+- category
+- rating out of 5
 
-#### Log In :bust_in_silhouette:
+Clicking the image will take the user to the product detail page. This page also contains a **Sort By** box for ordering the items.
 
-This facility is created using the Django-allauth package built on top of Django's own authentication and authorisation framework. This provides a comprehensive set of tools to handle user authentication and registration in Django projects.
+Only the **administrator** can view the links to **Edit** (blue) or **Delete** (red) a product.
 
-#### Profile :lock:
+<h2 align="left"><img src="docs/pictures/admin-edit-delete.jpg"></h2>
 
-An inbuilt Django decorator protects user profiles. Only the current logged-in user can view **past order detail** page or update default address information. 
+#### Product Detail :pizza:
 
-#### Past Order Detail :bookmark_tabs:
+Only the selected product is displayed with a larger image and the same details. In addition the following is seen:
+- item description
+- quantity adjustment box
+- **add to bag** button
+- **keep shopping** button
+
+#### Product Manage - Add :pizza::heavy_plus_sign:
+
+Only the **administrator** can view this page which contains the add product form. 
+
+The following fields are displayed: (```*``` mandatory)
+- category dropdown select
+- sku
+- name*
+- description*
+- price*
+- rating
+- image url
+
+with the buttons:
+- select image
+- cancel
+- add product
+
+#### Product Manage - Edit :pencil2:
+
+Only the **administrator** can view this page which contains the edit product form. 
+
+The following fields are displayed: (```*``` mandatory)
+- category dropdown select
+- sku
+- name*
+- description*
+- price*
+- rating
+- image url
+
+with the buttons:
+- select image
+- cancel
+- add product
+
+#### Shopping Bag :handbag:
+
+Users can see which items they have added to their bag. Here, they can: 
+- view the grand total
+- update the item quantity
+- remove the item
+- keep shopping
+- proceed to secure checkout
+
+#### Checkout with Stripe Payment :credit_card:
+
+Checkout is completed via secure [Stripe Payments](https://stripe.com/en-gb/payments). Users fill in their card details and have the option to save their details in their profile. Payment success is issued via a checkout success page and email confirmation, whereas failure is notified by red text underneath the card number.
+
+#### Checkout Success :heavy_check_mark:
 
 Logged-in users can view a past order page from their profile, with the following information:
 - email address used for order confirmation
@@ -430,51 +494,46 @@ Logged-in users can view a past order page from their profile, with the followin
 - credit card address
 - billing information
 
-#### Logout :point_right:
+#### Our Blog :writing_hand:
+
+Blog contains a list of articles displayed in reverse chronological order. Selecting the **READ MORE** button takes the user to the more informative current **blog article**.
+
+#### Newsletter Subscription :email:
+
+Anyone can subscribe to the business newsletter email which keeps users updated on future events.
+
+#### Sign Up :bust_in_silhouette::heavy_plus_sign:
+
+Anybody can *register* for free and create a unique profile to store their own order history.
+
+#### Sign In :bust_in_silhouette:
+
+This facility is created using the Django-allauth package built on top of Django's own authentication and authorisation framework. This provides a comprehensive set of tools to handle user authentication and registration in Django projects.
+
+#### Profile :lock:
+
+An inbuilt Django decorator protects user profiles. Only the current logged-in user can view the **past order detail** page - which is actually the same page as **checkout success**, or update default address information. 
+
+#### Sign Out :point_right:
 
 This is a separate page where the user either confirms to signing out or cancels the action. 
 
-#### Shopping Bag :handbag:
-
-Users can see which items they have added to their bag. Here, they can view the grand total, update the item quantity, remove the item, keep shopping or go to the secure checkout.
-
-#### All Products :takeout_box:
-
-
-
-#### Product Detail :pizza:
-
-Only the **administrator** can view the links to Edit or Delete the current product.
-
-#### Our Blog :memo::pencil:
-
-
-
-#### Newsletter Subscription :newspaper:
-
-
-
 #### 404 Page :no_entry:
 
-
+This page replaces the standard Django **Page Not Found** with one matching the site design and a **Go Home** button.
 
 #### 500 Page :warning:
 
-
-
-#### Product Management :card_index_dividers:
-
-Only the **administrator** can view the page to Add a product.
-
-#### Add Category :card_index_dividers::heavy_plus_sign:
-
-Only the **administrator** can view this page in order to add categories.
-
+This page replaces the standard Django **Internal Server Error** page with one matching the site design and a **Go Home** button.
 
 ### Future Features
 
-- Allow users to change their passwords.
-- Allow users to 'rate' products.
+- Allow users to 'rate' or 'like' products
+- Allow users to register via social media accounts - this is provide in the app but due to time constraints is not yet activated
+- Add special offers and discounted items
+- Offer a delivery service when the business expands to a certain level
+- Let the customer choose a time slot for collection
+- Offer dietry requirement options
 
 ---
 
@@ -491,11 +550,9 @@ Only the **administrator** can view this page in order to add categories.
 * Native font stack from [Bootstrap](https://getbootstrap.com/docs/4.6/content/reboot/#native-font-stack).
 * Colour palette generated by [Bootstrap](https://getbootstrap.com/docs/4.6/utilities/colors/).
 * Icon library and toolkit from [Font Awesome 5](https://fontawesome.com/).
-* 'CC' avicon created on [favicon.cc](https://www.favicon.cc/).
-* GitHub static badges from [Shields.io](https://shields.io/badges)
 * Online photo editor from [Pixlr](https://pixlr.com/x/).
 * Stock photos from [Unsplash](https://unsplash.com).
-* Product photos from Jason Firth
+* Product photos from [Jason Firth](https://www.facebook.com/people/Luca-Loves-Pizza/100075726265051/)
 * Showcasing the site on different devices by [Bytes](https://ui.dev/amiresponsive)
 * Paint from [Microsoft](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H?hl=en-us&gl=us)
 * Snip and Sketch from [Microsoft](https://apps.microsoft.com/store/detail/snipping-tool/9MZ95KL8MR0L?hl=en-gb&gl=gb)
@@ -566,6 +623,8 @@ Markdown Cheatsheet from [Adam Pritchard](https://github.com/adam-p/markdown-her
 Favicon created on [favicon.cc](https://www.favicon.cc/)
 
 Emoji shortcodes from [Ikatyang](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) on GitHub
+
+GitHub static badges from [Shields.io](https://shields.io/badges)
 
 
 ### Code
