@@ -39,7 +39,7 @@ The site also enhances the owner's goals by:
 
 The aim of the project is to provide a supplementary app for local hospitality businesses offering a food takeaway service. Whilst many of these business offer an online table booking service, they do not have a select, pay and collect (or delivery) facility for takeaway food.
 
-This site is created for my friend Jason Firth who owns the [**Luca Loves PIZZA**](https://www.lucalovespizza.co.uk/) pizza van service in Warwickshire and the West Midlands. He travels with his pizza van to local events and festivals. Jason usually operates the service by himself and at the moment mainly takes orders via WhatsApp messenger, but it would make life easier if this part of the business could be automated. 
+This site is created for my friend Jason Firth who owns the [**Luca Loves PIZZA**](https://www.lucalovespizza.co.uk/) mobile takeaway service for Warwickshire and the West Midlands. He travels with his pizza van to local events and festivals. Jason usually operates the service by himself and at the moment mainly takes orders via WhatsApp messenger, but it would make life easier if this part of the business could be automated. 
 
 This app is inspired by [Zari Restaurant](https://www.zarirestaurant.co.uk/indian-takeaway-in-crawley/) in Crawley, West Sussex. I used their online takeaway facility many times, whilst working away. I would order my meal, pay for it and select a time slot for collection on the way home.
 
@@ -323,12 +323,12 @@ Table Examples
     - Sign Up
     - Sign In
 
-* Two user/admin logged in pages for:
+* User/admin logged in pages for:
     - Profile
     - Password Reset
     - Sign Out
 
-* Plus two additional admin (superuser) only pages for:
+* Additional admin (superuser) only pages for:
     - Add Product
     - Edit Product
 
@@ -531,6 +531,7 @@ This page replaces the standard Django **Internal Server Error** page with one m
 - Allow users to 'rate' or 'like' products
 - Allow users to register via social media accounts - this is provide in the app but due to time constraints is not yet activated
 - Add special offers and discounted items
+- Send out an actual newsletter email
 - Offer a delivery service when the business expands to a certain level
 - Let the customer choose a time slot for collection
 - Offer dietry requirement options
@@ -586,11 +587,12 @@ This page replaces the standard Django **Internal Server Error** page with one m
 
 ### Validation and Evaluation
 
-* HTML validation from [W3C](https://validator.w3.org/#validate_by_input).
-* CSS validation from [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/).
-* Python validation from [CI Python Linter](https://pep8ci.herokuapp.com/).
-* JavaScript validation from [JSHint](https://jshint.com/).
-* Site audit by [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/).
+* HTML validation from [W3C](https://validator.w3.org/#validate_by_input)
+* CSS validation from [Jigsaw (W3C)](https://jigsaw.w3.org/css-validator/)
+* Python validation from [CI Python Linter](https://pep8ci.herokuapp.com/)
+* Tool For Style Guide Enforcement from [Flake8](https://flake8.pycqa.org/en/latest/)
+* JavaScript validation from [JSHint](https://jshint.com/)
+* Site audit by [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 
 ---
 
