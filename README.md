@@ -299,10 +299,73 @@ Database Entity Relationship Diagram (PostgreSQL)
 
 <h2 align="left"><img src="docs/pictures/db-erd.jpg"></h2>
 
-Table Examples
+#### Database Tables
 
-* Products
-<h2 align="left"><img src="docs/pictures/db-products.jpg"></h2>
+In Django, data is created in objects called Models, which are actually tables in a database.
+
+**Blog Model**
+
+The Post model has the following fields:
+
+- title: A character field (CharField) for the title of the blog post with a maximum length of 200 characters. It must be unique.
+
+- slug: A slug field (SlugField) used in URLs to represent the post with a maximum length of 200 characters. It must be unique.
+
+- author: A foreign key field (ForeignKey) that relates the blog post to a user from the User model. The on_delete=models.CASCADE specifies that if the related user is deleted, all their blog posts will also be deleted. The related_name='blog_posts' provides a reverse relation for the user model.
+
+- updated_on: A DateTime field (DateTimeField) that automatically updates whenever the post is modified.
+
+- content: A TextField that holds the content of the blog post.
+
+- created_on: A DateTime field that automatically records the date and time when the post is created.
+
+- status: An Integer field (IntegerField) that represents the status of the post, with two choices: "Draft" (status=0) and "Publish" (status=1). The default value is set to "Draft".
+
+The Post model also defines a nested class Meta, where the ordering of the blog posts is set to be in descending order of the created_on field.
+
+Finally, the ```__str__``` method is defined to return the title of the blog post as a string representation when the object is referenced.
+
+**Checkout Models**
+
+This Python code defines two models for handling orders and order line items in a Django web application:
+
+- Order model: This model represents an order made by a user. It includes various fields for storing order details such as order_number, user_profile, full_name, email, phone_number, country, postcode, town_or_city, street_address1, street_address2, county, date, delivery_cost, order_total, grand_total, original_bag, and stripe_pid. The model also defines methods for generating a random order number, updating the total amount of the order (including delivery costs), and overriding the save method to set the order number if it hasn't been set already.
+
+- OrderLineItem model: This model represents individual line items in an order. It contains fields like order, product, product_mod, quantity, and lineitem_total. The model includes a save method to set the line item total based on the product price and quantity, and it updates the order total accordingly.
+
+These models are related through foreign keys, and they facilitate storing and managing order data for the web application. The ```__str__``` methods in both models provide string representations of the order and line items when referenced.
+
+**Products Models**
+
+This Python code defines two models, Category and Product, for handling categories and products in a Django web application:
+
+- Category model: This model represents product categories. It has fields for name and friendly_name. The name field stores the name of the category, and the friendly_name field stores an optional user-friendly name for the category. The model provides a method get_friendly_name() to return the friendly name if available. The ```__str__``` method returns the name of the category as its string representation.
+
+- Product model: This model represents individual products in the web application. It includes fields such as category, sku, name, description, has_mods, price, rating, image_url, and image. The category field is a foreign key that links the product to a category from the Category model. The ```__str__``` method returns the name of the product as its string representation.
+
+Both models utilize Django's models.Model class for defining the fields and behavior. They help in managing category and product data and establishing relationships between products and their categories.
+
+**Profiles Model**
+
+This Python code defines a UserProfile model and a signal receiver function to create or update user profiles when a new user is created or an existing user is saved.
+
+- UserProfile model: This model represents a user profile and contains fields for maintaining default delivery information, including user, default_phone_number, default_street_address1, default_street_address2, default_town_or_city, default_county, default_postcode, and default_country. The user field is a one-to-one relationship with the Django User model to associate each user with their profile. The __str__ method returns the username of the associated user as its string representation.
+
+- create_or_update_user_profile signal receiver: This function is connected to the post_save signal of the User model. When a new user is created, it automatically creates a corresponding UserProfile instance. For existing users, it updates the UserProfile instance to ensure it stays synchronized with the associated user.
+
+The code effectively sets up a one-to-one relationship between the User model and the UserProfile model, allowing each user to have a profile with default delivery information and order history. The signal receiver ensures that user profiles are created or updated as needed when user instances are saved.
+
+**Subscribe Model**
+
+This Python code defines a Django model named SubscribedUsers to store information about subscribed users. The model includes the following fields:
+
+- name: A character field with a maximum length of 50 characters to store the name of the subscribed user.
+
+- email: An email field with a maximum length of 254 characters and marked as unique=True to ensure each email is unique in the database. It stores the email address of the subscribed user.
+
+- created_date: A DateTime field with the default value set to the current date and time using timezone.now. It represents the date and time when the user's subscription was created.
+
+The ```__str__``` method is defined to return the email address of the subscribed user as its string representation. This model is suitable for maintaining a list of subscribed users with their names, email addresses, and the date when they subscribed.
 
 ---
 
@@ -560,6 +623,7 @@ This page replaces the standard Django **Internal Server Error** page with one m
 * PDF Reader from [Adobe Acrobat Reader](https://www.adobe.com/uk/)
 * Flowchart by [diagrams.net/draw.io](https://www.diagrams.net/)
 * PostgreSQL ERD created by [DbSchema](https://dbschema.com/)
+* Python code summaries generated by ChatGPT from [OpenAI](https://openai.com/)
 
 ### Front-End
 
@@ -628,7 +692,6 @@ Emoji shortcodes from [Ikatyang](https://github.com/ikatyang/emoji-cheat-sheet/b
 
 GitHub static badges from [Shields.io](https://shields.io/badges)
 
-
 ### Code
 
 Although this project is the work of the author, the code is based on the [Boutique Ado Tutorial](https://github.com/Code-Institute-Solutions/boutique_ado_v1) by Chris Z for Code Institute.
@@ -638,7 +701,6 @@ Other code sourced from or inspired by others have references embedded as links 
 The Blog App code is based on the Djangocentral tutorial [Building A Blog Application With Django](https://djangocentral.com/building-a-blog-application-with-django/) by Abhijeet Pal
 
 Subscription page code based on the Python Lessons tutorial [Introduction no Subscribers and Newsletter #18](https://www.youtube.com/watch?v=wl4Yxo5_Cgw) by Rokas Liuberskis
-
 
 ---
 
