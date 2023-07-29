@@ -1,3 +1,11 @@
+"""
+The code utilizes Django models to manage products and categories,
+along with forms for adding/editing products. It also uses Django's
+messages framework to display success, error, and info messages to users.
+The views 'add_product', 'edit_product', and 'delete_product' require
+user authentication, ensuring only superusers can perform these actions.
+"""
+
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -9,7 +17,14 @@ from .forms import ProductForm
 
 
 def all_products(request):
-    """ A view to show all products, including sorting and search queries """
+    """
+    A view to show all products, including sorting and search queries -
+    This view displays all products in the store, supporting sorting and
+    search queries. It retrieves the products from the database, sorts them
+    based on user-provided parameters, filters products based on categories
+    and search queries, and renders the 'products/products.html' template
+    with the filtered products.
+    """
 
     products = Product.objects.all()
     query = None
@@ -62,7 +77,13 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """
+    A view to show individual product details -
+    This view displays the details of an individual product.
+    It retrieves the product based on the provided product_id from
+    the database and renders the 'products/product_detail.html'
+    template with the product details.
+    """
 
     product = get_object_or_404(Product, pk=product_id)
 
@@ -75,7 +96,13 @@ def product_detail(request, product_id):
 
 @login_required
 def add_product(request):
-    """ Add a product to the store """
+    """
+    Add a product to the store -
+    This view allows the site owner (superuser) to add a new product
+    to the store. It processes the product form data, saves the new
+    product to the database, and redirects to the product detail page
+    upon successful addition.
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only site owner can do that.')
         return redirect(reverse('home'))
@@ -104,7 +131,14 @@ def add_product(request):
 
 @login_required
 def edit_product(request, product_id):
-    """ Edit a product in the store """
+    """
+    Edit a product in the store -
+    This view allows the site owner (superuser) to edit an existing
+    product in the store. It retrieves the product based on the provided
+    product_id, processes the updated form data, and saves the changes
+    to the database. Upon successful update, it redirects to the product
+    detail page.
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only site owner can do that.')
         return redirect(reverse('home'))
@@ -135,7 +169,13 @@ def edit_product(request, product_id):
 
 @login_required
 def delete_product(request, product_id):
-    """ Delete a product from the store """
+    """
+    Delete a product from the store -
+    This view allows the site owner (superuser) to delete a product
+    from the store. It retrieves the product based on the provided
+    product_id, deletes it from the database, and redirects to the
+    product listing page.
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only site owner can do that.')
         return redirect(reverse('home'))

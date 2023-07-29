@@ -11,12 +11,22 @@ import stripe
 @require_POST
 @csrf_exempt
 def webhook(request):
-    """Listen for webhooks from Stripe"""
-    # Setup
+    """
+    This function listens for incoming webhook events from Stripe in a
+    Django web application. The purpose of this view is to
+    process various webhook events related to payment processing.
+
+    The webhook function is decorated with @require_POST and
+    @csrf_exempt decorators, indicating that it only accepts
+    POST requests and bypasses the CSRF protection for this specific view.
+
+    It retrieves the Stripe webhook secret and API key from the
+    Django settings.
+    """
     wh_secret = settings.STRIPE_WH_SECRET
     stripe.api_key = settings.STRIPE_SECRET_KEY
 
-    # Get the webhook data and verify its signature
+    # Verifies the webhook's signature
     payload = request.body
     sig_header = request.META['HTTP_STRIPE_SIGNATURE']
     event = None

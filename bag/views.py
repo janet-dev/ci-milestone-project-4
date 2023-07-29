@@ -13,7 +13,14 @@ def view_bag(request):
 
 
 def add_to_bag(request, item_id):
-    """ Add a quantity of the specified product to the shopping bag """
+    """
+    Add a quantity of the specified product to the shopping bag
+
+    This view is called when a user adds a product with the specified item_id
+    to the shopping bag. It retrieves the product from the database,
+    gets the quantity from the request's POST data, updates the bag dictionary
+    in the session, and displays success messages accordingly.
+    """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -33,7 +40,14 @@ def add_to_bag(request, item_id):
 
 
 def adjust_bag(request, item_id):
-    """Adjust the quantity of the specified product to the specified amount"""
+    """
+    Adjust the quantity of the specified product to the specified amount
+
+    This view is called when a user adjusts the quantity of a product with the
+    specified item_id in the shopping bag. It retrieves the product from the
+    database, gets the updated quantity from the request's POST data, updates
+    the bag dictionary in the session, and displays success messages.
+    """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -52,7 +66,14 @@ def adjust_bag(request, item_id):
 
 
 def remove_from_bag(request, item_id):
-    """Remove the item from the shopping bag"""
+    """
+    Remove the item from the shopping bag
+
+    This view is called when a user removes a product with the specified
+    item_id from the shopping bag. It removes the item from the bag dictionary
+    in the session and displays a success message. If an error occurs,
+    it shows an error message.
+    """
 
     try:
         product = get_object_or_404(Product, pk=item_id)

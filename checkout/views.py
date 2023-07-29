@@ -19,6 +19,14 @@ import json
 
 @require_POST
 def cache_checkout_data(request):
+    """
+    This view is decorated with @require_POST, indicating that it
+    only accepts POST requests. It is used to update the Stripe PaymentIntent
+    metadata with bag contents, save_info, and the username.
+    The data is retrieved from the request's POST data.
+    If successful, it returns an HTTP response with status code 200.
+    Otherwise, it displays an error message with status code 400.
+    """
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -35,6 +43,15 @@ def cache_checkout_data(request):
 
 
 def checkout(request):
+    """
+    This view handles the checkout process. If the request method is POST,
+    it validates the order form data, saves the order details, and creates
+    order line items for each item in the bag. If the form is not valid,
+    it displays an error message. If the request method is not POST,
+    it retrieves bag contents and calculates the total amount for the
+    Stripe PaymentIntent. It also handles authenticated user profiles
+    by prefilling form fields if available.
+    """
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
@@ -136,6 +153,12 @@ def checkout(request):
 def checkout_success(request, order_number):
     """
     Handle successful checkouts
+
+    This view is called after a successful checkout.
+    It attaches the user's profile to the order if the user is
+    authenticated, saves the user's information if requested,
+    displays a success message with the order number,
+    and renders the 'checkout_success.html' template.
     """
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
