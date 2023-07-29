@@ -35,7 +35,7 @@ The site also enhances the owner's goals by:
 ![Django](https://img.shields.io/static/v1?label=Django&message=3.2.19&color=yellow&logo=django)
 ![PostgreSQL](https://img.shields.io/static/v1?label=PostgreSQL&message=11.19&color=blue&logo=postgresql&logoColor=ffffff)
 
-[View the live project here.](#)
+[View the live project here.](https://clickcollect-app-be0648f4f2c3.herokuapp.com/)
 
 The aim of the project is to provide a supplementary app for local hospitality businesses offering a food takeaway service. Whilst many of these business offer an online table booking service, they do not have a select, pay and collect (or delivery) facility for takeaway food.
 
