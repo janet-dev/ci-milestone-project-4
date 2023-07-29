@@ -410,7 +410,7 @@ Navigation section will be the default responsive Bootstrap one.
             - Our blog
             - Subscribe 
 
-#### Home Page :it:
+#### Home Page :house:
 
 Anyone (guest, member, administrator) can view this page which features a hero image with a call to action **ORDER NOW** button.
 
