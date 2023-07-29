@@ -170,7 +170,7 @@ In general, all pages have the Bootstrap white background with dark grey or blac
 
 ### Wireframes
 
-View the wireframe PDF [here](docs/ux/wireframe-mp4.pdf).
+View the wireframes PDF [here](docs/ux/wireframe-mp4.pdf).
 
 The pages contain the same functionality and look the same on every device, with the exception to the menus and the number of product cards displayed across the screen.
 
@@ -180,33 +180,69 @@ The pages contain the same functionality and look the same on every device, with
 
 <h2 align="left"><img src="docs/ux/tablet-home.jpg"></h2>
 
-- Profile
+- Navigation
+
+<h2 align="left"><img src="docs/ux/tablet-mobile-nav.jpg"></h2>
+
+- Navigation (Logged In)
+
+<h2 align="left"><img src="docs/ux/tablet-mobile-logged-in.jpg"></h2>
+
+- Products
+
+<h2 align="left"><img src="docs/ux/tablet-products.jpg"></h2>
+
+- Product Details
+
+<h2 align="left"><img src="docs/ux/tablet-product-details.jpg"></h2>
+
+- Product Add (Admin Login Only)
+
+<h2 align="left"><img src="docs/ux/tablet-product-add.jpg"></h2>
+
+- Product Edit (Admin Login Only)
+
+<h2 align="left"><img src="docs/ux/tablet-product-edit.jpg"></h2>
+
+- Shopping Bag
+
+<h2 align="left"><img src="docs/ux/tablet-shopping-bag.jpg"></h2>
+
+- Checkout
+
+<h2 align="left"><img src="docs/ux/tablet-checkout.jpg"></h2>
+
+- Checkout Success
+
+<h2 align="left"><img src="docs/ux/tablet-checkout-success.jpg"></h2>
+
+- Blog
+
+<h2 align="left"><img src="docs/ux/tablet-blog.jpg"></h2>
+
+- Blog Article
+
+<h2 align="left"><img src="docs/ux/tablet-blog-article.jpg"></h2>
+
+- Newspaper Subscription
+
+<h2 align="left"><img src="docs/ux/tablet-subscribe.jpg"></h2>
+
+- Sign Up / Register
+
+<h2 align="left"><img src="docs/ux/tablet-signup.jpg"></h2>
+
+- Sign In / Login
+
+<h2 align="left"><img src="docs/ux/tablet-signin.jpg"></h2>
+
+- Profile (User/Admin Login)
 
 <h2 align="left"><img src="docs/ux/tablet-profile.jpg"></h2>
 
-- Add / Edit Products Form
+- Sign Out / Logout
 
-<h2 align="left"><img src="docs/ux/tablet-update.jpg"></h2>
-
-- Categories
-
-<h2 align="left"><img src="docs/ux/tablet-categories.jpg"></h2>
-
-- Register
-
-<h2 align="left"><img src="docs/ux/tablet-register.jpg"></h2>
-
-- Log In
-
-<h2 align="left"><img src="docs/ux/tablet-login.jpg"></h2>
-
-- Logged Out
-
-<h2 align="left"><img src="docs/ux/tablet-logout.jpg"></h2>
-
-- Top Header
-
-    <h2 align="left"><img src="docs/ux/tablet-top-header.jpg"></h2>
+<h2 align="left"><img src="docs/ux/tablet-signout.jpg"></h2>
 
 
 #### Desktop
@@ -214,6 +250,22 @@ The pages contain the same functionality and look the same on every device, with
 - Home
 
 <h2 align="left"><img src="docs/ux/desktop-home.jpg"></h2>
+
+- Navigation
+
+<h2 align="left"><img src="docs/ux/desktop-nav.jpg"></h2>
+
+- Navigation (Logged In)
+
+<h2 align="left"><img src="docs/ux/desktop-logged-in.jpg"></h2>
+
+- Products
+
+<h2 align="left"><img src="docs/ux/desktop-products.jpg"></h2>
+
+- Profile (User/Admin Login)
+
+<h2 align="left"><img src="docs/ux/desktop-profile.jpg"></h2>
 
 - Other Pages - same as for tablet
 
@@ -223,11 +275,23 @@ The pages contain the same functionality and look the same on every device, with
 
 <h2 align="left"><img src="docs/ux/mobile-home.jpg"></h2>
 
+- Products
+
+<h2 align="left"><img src="docs/ux/mobile-products.jpg"></h2>
+
+- Product Details
+
+<h2 align="left"><img src="docs/ux/mobile-product-details.jpg"></h2>
+
+- Shopping Bag
+
+<h2 align="left"><img src="docs/ux/mobile-shopping-bag.jpg"></h2>
+
 - Other Pages - same as for tablet
 
 ### Relational Database
 
-This projects uses a PostgreSQL database hosted by ElephantSQL.
+This projects uses [ElephantSQL](https://www.elephantsql.com/) which offers PostgreSQL as a service.
 
 <h2 align="left"><img src="docs/pictures/db-version.jpg"></h2>
 
@@ -246,24 +310,25 @@ Table Examples
 
 ### Current Features
 
-* This app consists of nine user pages for:
+* This app consists of pages for:
     - Home
     - Products
     - Product Detail
-    - Log In, Register
-    - Profile
     - Shopping Bag
     - Checkout
-    - Log Out
     - Blog List
     - Blog Article
     - Newspaper Subscription
-* Plus two additional administrator (superuser) pages for:
+    - Sign Up
+    - Sign In
+    - Profile (user/admin login only)
+    - Sign Out
+
+* Plus two additional admin (superuser) pages for:
     - Add Product
     - Edit Product
-* And a further set of in-built Django error pages e.g. 404, 500
+* And a further set of in-built Django admin pages for user and app management
  
-
 #### Navigation :compass:
 
 Navigation bar will be the default responsive Bootstrap one.
@@ -302,7 +367,7 @@ Navigation bar will be the default responsive Bootstrap one.
         - Our blog
         - Subscribe 
     
-    which will be inline and fixed just above the red *NO COLLECTION FEE!* banner. 
+    which will be inline and fixed just above the red *FOLOW US* banner. 
     
     All dropdown menu items will have dark grey text on a white background and on hover, a light grey backgound.
 
