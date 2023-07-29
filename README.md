@@ -170,7 +170,7 @@ In general, all pages have the Bootstrap white background with dark grey or blac
 
 ### Wireframes
 
-View the wireframe PDF [here](docs/ux/wireframe-mp3.pdf).
+View the wireframe PDF [here](docs/ux/wireframe-mp4.pdf).
 
 The pages contain the same functionality and look the same on every device, with the exception to the menus and the number of product cards displayed across the screen.
 
