@@ -1350,11 +1350,126 @@ The original Excel version created by Tim Nelson, can be found [here](https://gi
 
 ## Bugs Found
 
-1. Misalignment of Materialize grid columns
+1. Missing product images
 
-<h2 align="left"><img src="docs/testing/bugs/bug-01.jpg"></h2>
+    - When the site was first deployed to Heroku, the drinks product images were missing.
 
-- Solved by assigning margin-left to 0 
+    <h2 align="left"><img src="docs/testing/bugs/bug-01-1.jpg"></h2>
+
+    - Error message for ```href``` link: *This XML file does not appear to...*
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-01-2.jpg"></h2>
+
+    - The images were incorrectly named in the products section of the Django Administration dashboard.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-01-3.jpg"></h2>
+
+    - Solved by correctly naming the images in Django Admin
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-01-soln.jpg"></h2>
+
+2. Favicon not displaying on Heroku
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-02-1.jpg"></h2>
+
+    - Heroku was returning a 404 response because it could not find the favicon on Amazon S3.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-02-2.jpg"></h2>
+
+    - Solved by moving the favicon into the root static folder.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-02-soln.jpg"></h2>
+
+3. Misaligned page titles and horizontal rules
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-03.jpg"></h2>
+
+    - Solved by ensuring all titles were centred.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-03-soln.jpg"></h2>
+
+4. Future features for the app were visible
+
+    - Some future features (new arrivals, clearance, deals) not required at the moment were still showing in the product manage section.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-04.jpg"></h2>
+
+    - Solved by adding CSS to not display those options.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-04-soln.jpg"></h2>
+
+5. No minimum text length for input fields
+
+    - The card details form has no minimum text length rules for the phone number and address fields.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-05-1.jpg"></h2>
+    <h2 align="left"><img src="docs/testing/bugs/bug-05-2.jpg"></h2>
+
+    - No action required. It was decided that for the real world there was no need to change this. For card payment validation, the user must input their correct address. An incorrect address is an indicator of an attempted fraudulent payment and the transaction will fail.
+
+6. Missing form labels
+
+    - During the Lighthouse audit, some form elements had missing labels which are useful for accessibility.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-06.jpg"></h2>
+
+    - Solved by adding aria labels.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-06-soln.jpg"></h2>
+
+7. Link does not have a discernible name
+
+    - The Facebook icon on the red banner had no label.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-07.jpg"></h2>
+
+    - Solved by adding an aria label to the ```<a></a>``` tag
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-07-soln.jpg"></h2>
+
+8. Colour contrast insufficient
+
+    - The shade of blue originally used for text links was not dark enough to contrast against the site's white background.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-08.jpg"></h2>
+
+    - Solved by changing the link colour from Bootstrap's *info* shade to dark blue #00008b.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-08-soln.jpg"></h2>
+
+9. No label for *My Account* icon
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-09.jpg"></h2>
+
+    - Solved by adding an aria label.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-09-soln.jpg"></h2>
+
+10. Issue with AUTH_PASSWORD_VALIDATORS setting
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-10.jpg"></h2>
+
+    - During the Flake8 validation check, warnings were displayed for lines which were too long in settings.py. An attempt to fix this issue resulted in configuration errors.
+    
+    - Debug = True:
+    <h2 align="left"><img src="docs/testing/bugs/bug-10-1.jpg"></h2>
+
+    - Debug = False:
+    <h2 align="left"><img src="docs/testing/bugs/bug-10-2.jpg"></h2>
+
+    - Solved by returning the code back to it's original form and removing the line continuation slash.
+
+    <h2 align="left"><img src="docs/testing/bugs/bug-10-soln.jpg"></h2>
+
+---
+
+## Known Issues
+
+This error was removed by running the site on Chrome in Incognito mode.
+
+<h2 align="left"><img src="docs/testing/bugs/bug-00.jpg"></h2>
+
+Stack Overflow user [Chrostip Schaejn](https://stackoverflow.com/questions/72494154/a-listener-indicated-an-asynchronous-response-by-returning-true-but-the-messag) advised that this error was cause by various Chrome extensions.
 
 ---
 

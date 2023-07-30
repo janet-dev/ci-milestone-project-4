@@ -146,7 +146,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 #### Colour Scheme
 
-The following Bootstrap [colour scheme](https://getbootstrap.com/docs/4.6/utilities/colors/) was chosen for simplicity,  readability and lends itself nicely to the subject of flame baked pizzas.
+The following Bootstrap [colour scheme](https://getbootstrap.com/docs/4.6/utilities/colors/) was chosen for simplicity, readability and lends itself nicely to the subject of multi-coloured flame baked pizzas.
 
 <h2 align="left"><img src="docs/pictures/colours.jpg"></h2>
 
