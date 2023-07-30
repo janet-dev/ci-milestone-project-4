@@ -671,7 +671,7 @@ A huge thank you to the following people and organisations, because without you,
 
 ### From the Course
 
-Heroku deployment instructions from Code Institute student [Joy Zadan](https://github.com/JoyZadan/shop-kbeauty/blob/main/DEPLOYMENT.md)
+Heroku deployment instructions from Code Institute graduate [Joy Zadan](https://github.com/JoyZadan/shop-kbeauty/blob/main/DEPLOYMENT.md)
 
 Readme styling from Tim Nelson's project [Unicorn Attractor](https://github.com/TravelTimN/ci-milestone05-fsfw)
 

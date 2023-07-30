@@ -38,7 +38,7 @@ For local deployment:
 
 ### Remote Deployment
 
-These Heroku deployment instructions were created by Code Institute student [Joy Zadan](https://github.com/JoyZadan/shop-kbeauty/blob/main/DEPLOYMENT.md).
+These Heroku deployment instructions were created by Code Institute graduate [Joy Zadan](https://github.com/JoyZadan/shop-kbeauty/blob/main/DEPLOYMENT.md) with some of my screenshots.
 
 ClickCollect is deployed on Heroku and uses AWS S3 for staticfiles cloud storage.
 
