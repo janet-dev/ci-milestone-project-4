@@ -54,40 +54,22 @@ The site is designed to be responsive and accessible on a range of devices, maki
     - [**User Stories**](#user-stories)
     - [**Owner Goals**](#owner-goals)
     - [**Design**](#design)
-        - [**The CRUD App**](#the-crud-app)
-        - [**Framework**](#framework)
-        - [**Colour Scheme**](#colour-scheme)
-        - [**Typography**](#typography)
-        - [**Imagery**](#imagery)
     - [**Wireframes**](#wireframes)
     - [**Relational Database**](#relational-database)
 
+---
 2. [**Features**](#features)
     - [**Current Features**](#current-features)
-        - [**Navigation**](#navigation)
-        - [**Home Page**](#home-page)
-        - [**Products**](#products)
-        - [**Product Detail**](#product-detail)
-        - [**Product Manage**](#product-manage)
-        - [**Shopping Bag**](#shopping-bag)
-        - [**Checkout with Stripe Payment**](#checkout-with-stripe-payment)
-        - [**Checkout Success**](#checkout-success)
-        - [**Our Blog**](#our-blog)
-        - [**Newsletter Subscription**](#newsletter-subscription)
-        - [**Sign Up**](#sign-up)
-        - [**Sign In**](#sign-in)
-        - [**Profile**](#profile)
-        - [**Sign Out**](#sign-out)
-        - [**404 Page**](#404-page)
-        - [**500 Page**](#500-page)
     - [**Future Features**](#future-features)
 
+---
 3. [**Technologies Used**](#technologies-used)
     - [**Design Tools**](#design-tools)
     - [**Front-End**](#front-end)
     - [**Back-End**](#back-end)
     - [**Validation and Evaluation**](#validation-and-evaluation)
 
+---
 4. [**Manual Testing**](TESTING.md)
     - [**Supported Browsers and Screen Sizes**](TESTING.md/#supported-browsers-and-screen-sizes)
     - [**Testing Against User Stories**](TESTING.md/#testing-against-user-stories)
@@ -98,13 +80,16 @@ The site is designed to be responsive and accessible on a range of devices, maki
     - [**Bugs Found**](TESTING.md/#bugs-found)
     - [**Known Issues**](TESTING.md/#known-issues)
 
+---
 5. [**Automated Testing**](TESTING.md/#automated-testing)
-    - [**Unit Testing Using ChatGPT**](TESTING.md/##unit-testing-using-chatgpt)
+    - [**Unit Testing Using ChatGPT**](TESTING.md/#unit-testing-using-chatgpt)
 
+---
 6. [**Deployment**](DEPLOYMENT.md)
     - [**Local Deployment**](DEPLOYMENT.md/#local-deployment)
     - [**Remote Deployment**](DEPLOYMENT.md/#remote-deployment)
 
+---
 7. [**Credits**](#credits)
     - [**Media**](#media)
     - [**Code**](#code)
