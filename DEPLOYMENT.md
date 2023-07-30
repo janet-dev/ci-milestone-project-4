@@ -192,9 +192,8 @@ pip3 install gunicorn
 pip3 freeze --local > requirements.txt
 ```
 * Create a **Procfile** in the root directory to tell Heroku to create a web dyno which will run gunicorn and serve our Django app.
-```Procfile
-web: gunicorn click_collect.wsgi:application
-```
+<h2 align="left"><img src="docs/pictures/deploy-procfile.jpg"></h2>
+
 * Temporarily disable **collectstatic** by logging into the Heroku CLI in the terminal to tell Heroku not to collect static files when we deploy:
 ```bash
 heroku config:set DISABLE_COLLECTSTATIC=1 --app heroku-app-name
@@ -208,15 +207,17 @@ ALLOWED_HOSTS = ['deployed-site-url', 'localhost']
 
 The app should be deployed, albeit without the static files as we are yet to set these up.
 
-* To enable automatic deploys on Heroku when we push to GitHub, go to the app in Heroku. On the deploy tab, 
+* To enable automatic deploys on Heroku when we push to GitHub, go to the app in Heroku. 
+
+On the deploy tab 
 <h2 align="left"><img src="docs/pictures/deploy-heroku.jpg"></h2>
-set it to connect to GitHub
+Set it to connect to GitHub
 <h2 align="left"><img src="docs/pictures/deploy-heroku-github.png"></h2>
 Search for your repository and then click *connect*. 
 <h2 align="left"><img src="docs/pictures/deploy-heroku-repo.png"></h2>
 Once connected, you should see
 <h2 align="left"><img src="docs/pictures/deploy-heroku-connect.png"></h2>
-Then click *Enable Automatic Deploys*.
+Then click *Enable Automatic Deploys*
 <h2 align="left"><img src="docs/pictures/deploy-heroku-enable.png"></h2>
 After which you should see
 <h2 align="left"><img src="docs/pictures/deploy-heroku-auto.jpg"></h2>
