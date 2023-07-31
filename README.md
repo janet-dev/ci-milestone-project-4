@@ -2,7 +2,7 @@
 
 ## Project Purpose
 
-This is a Code Institute student project for Milestone 4, built to satisfy the requirements for the EKC Training Diploma (Level 5) in [Web Application Development](https://www.ekcgroup.ac.uk/ekc-training/computing/web-application-development-diploma-level-5). 
+This is a Code Institute student project for Milestone 4, built to satisfy the requirements for the EKC Training Diploma (Level 5) in [Web Application Development](https://www.ekcgroup.ac.uk/ashford-college/computing/web-application-development-diploma-level-5). 
 
 This project has been created in order to provide a community CRUD application on a deployed interactive website. The project was built using **Gitpod**. 
 
@@ -646,7 +646,7 @@ This page replaces the standard Django **Internal Server Error** page with one m
 - ![Heroku](https://img.shields.io/static/v1?label=Heroku&message=PaaS&color=430098&logo=heroku)
     - [Heroku](https://www.heroku.com) is used as *"Platform as a Service"* (PaaS) for app hosting.
 - ![PostgreSQL](https://img.shields.io/static/v1?label=PostgreSQL&message=11.19&color=blue&logo=postgresql&logoColor=ffffff)
-    - [PostgreSQL](https://www.postgresql.com/) is used as a relational database plugin via Heroku.
+    - [PostgreSQL](https://www.postgresql.org/) is used as a relational database plugin via Heroku.
 
 ### Validation and Evaluation
 
@@ -656,6 +656,7 @@ This page replaces the standard Django **Internal Server Error** page with one m
 * Tool For Style Guide Enforcement from [Flake8](https://flake8.pycqa.org/en/latest/)
 * JavaScript validation from [JSHint](https://jshint.com/)
 * Site audit by [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+* Temporary email account for testing from [Temp Mail](https://temp-mail.org/en/)
 
 ---
 
