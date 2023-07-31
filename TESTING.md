@@ -1258,6 +1258,8 @@ Due to having exceeded 85% of the monthly usage limit for the S3 AWS Free Tier i
 
 ### Desktop audits
 
+Many of the audit issues are caused by use of third party frameworks and libraries e.g. Bootstrap, jQuery, FontAwesome, Stripe, etc. See the PDF reports for more details.
+
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) average scores:
 
     <h2 align="left"><img src="docs/testing/audit/lighthouse-avg-desk.jpg"></h2>
