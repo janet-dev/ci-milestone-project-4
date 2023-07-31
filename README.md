@@ -564,7 +564,13 @@ Anybody can *register* for free and create a unique profile to store their own o
 
 #### Sign In :bust_in_silhouette:
 
-This facility is created using the Django-allauth package built on top of Django's own authentication and authorisation framework. This provides a comprehensive set of tools to handle user authentication and registration in Django projects.
+This facility is created using the [Django-allauth package](https://django-allauth.readthedocs.io/en/latest/index.html) built on top of [Django's own authentication and authorisation framework](https://docs.djangoproject.com/en/3.2/topics/auth/default/). This provides a comprehensive set of tools to handle user authentication and registration in Django projects. 
+
+It is important that unauthorised users are denied access to certain pages. Personal profile pages contain credit/debit card address details, full name, phone number and email address - information that should be protected. At the moment, this app does not show users the names of other users - this makes it difficult to attempt access to personal accounts. @login_required decorators are used to ensure only logged in users have access to appropriate pages.
+
+The administration pages for the site owner are protected from other users by creating a superuser account during project installation. A flag is used in the database to indicate if a certain registered user is a superuser/admin. This method is much better than creating a superuser with username of *admin*, which gives hackers half the information required - they only have to guess the password. 
+
+See the [Testcases](TESTING.md/#test-cases) section for how the defensive programming is implemented.
 
 #### Profile :lock:
 
